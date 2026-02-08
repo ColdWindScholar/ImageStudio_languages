@@ -1,0 +1,270 @@
+<resources>
+    <string name="app_name">ImageStudio</string>
+    <string name="translator">Çeviren: Ömer SÜSİN</string>
+    <!-- Common Buttons -->
+    <string name="btn_close">Kapat</string>
+    <string name="btn_cancel">İptal</string>
+    <string name="btn_start">Başlat</string>
+    <string name="btn_start_convert">Dönüştürmeyi Başlat</string>
+    <string name="btn_confirm">Onayla</string>
+    <string name="btn_back">Geri</string>
+
+    <!-- Screen Titles -->
+    <string name="wb_title">Çalışma Tezgâhı</string>
+    <string name="wb_task_status">Görev Durumu</string>
+    <string name="wb_open_folder">Klasörü Aç</string>
+    <string name="settings_title">Ayarlar</string>
+
+    <!-- Group Titles -->
+    <string name="group_unpack">Çıkarma Araçları</string>
+    <string name="group_repack">Paketleme Araçları</string>
+    <string name="group_advanced">Gelişmiş</string>
+
+    <!-- Unpack Tools -->
+    <string name="tool_payload">Payload Çıkar</string>
+    <string name="desc_payload">payload.bin yazılımını çıkar</string>
+
+    <string name="tool_super_unpack">Super Çıkar</string>
+    <string name="desc_super_unpack">lpunpack ile bölüm çıkarma</string>
+
+    <string name="tool_img_extract">Img Çıkar</string>
+    <string name="desc_img_extract">erofs/ext4 imaj içeriğini çıkar</string>
+
+    <!-- Repack Tools -->
+    <string name="tool_img_repack">Img Paketle</string>
+    <string name="desc_img_repack">erofs/ext4/boot imajlarını paketle</string>
+
+    <string name="tool_super_repack">Super Paketle</string>
+    <string name="desc_super_repack">lpmake ile super.img oluştur</string>
+
+    <!-- Advanced Tools -->
+    <string name="tool_sign_image">AVB İmzala</string>
+    <string name="desc_avb_sign">İmaja AVB doğrulaması ekle</string>
+
+    <string name="tool_fmt_convert">Format Dönüştür</string>
+    <string name="desc_fmt_convert">Çoklu format dönüştürme</string>
+
+    <!-- Status & Messages -->
+    <string name="status_executing">Görev yürütülüyor</string>
+    <string name="status_completed">Görev tamamlandı</string>
+    <string name="status_running">Çalışıyor...</string>
+    <string name="status_done">Bitti</string>
+    <string name="status_initializing">Başlatılıyor...</string>
+    <string name="status_ready">Hazır</string>
+    <string name="status_waiting">Görev bekleniyor...</string>
+    <string name="status_duration">Süre: %1$s</string>
+
+    <string name="log_details">Detaylı Günlük</string>
+    <string name="msg_dont_close">Pencereyi kapatmayın veya programdan çıkmayın</string>
+    <string name="msg_no_files">Geçerli dizinde ilgili dosya bulunamadı</string>
+    <string name="msg_no_imgs_found">.img dosyası bulunamadı</string>
+    <string name="msg_waiting_log">Günlük çıktısı bekleniyor...</string>
+    <string name="msg_no_log">Günlük yok</string>
+
+    <!-- File Selection & Configuration -->
+    <string name="convert_select_file">Dosya Seç</string>
+    <string name="convert_direction">Dönüştürme Yönü</string>
+    <string name="convert_title">Format Dönüştürme Ayarları</string>
+
+    <string name="repack_select_dir">Klasör Seç</string>
+    <string name="repack_manual_dir">Dizin adını manuel girin</string>
+
+    <string name="repack_img_title">Img Paketleme Ayarları</string>
+    <string name="repack_fs_type">Dosya Sistemi Türü</string>
+    <string name="repack_compress_algo">Sıkıştırma Algoritması</string>
+    <string name="repack_compress_level">Sıkıştırma Seviyesi</string>
+
+    <string name="super_title">Super Paketleme Ayarları</string>
+    <string name="title_select_partitions">Seçilen %1$d / Toplam %2$d bölüm</string>
+    <string name="super_size_mode">Boyut Modu</string>
+    <string name="super_size_auto">Otomatik Hesapla</string>
+    <string name="super_size_manual">Manuel Belirt</string>
+    <string name="super_size_custom_hint">Boyut girin (bayt)</string>
+    <string name="opt_sparse_image">Sparse İmaj Oluştur</string>
+    <string name="opt_virtual_ab">Sanal A/B</string>
+    <string name="label_group_name">Grup Adı</string>
+    <string name="label_device_name">Cihaz Adı</string>
+
+    <string name="source_project_root">Proje Kök Dizini</string>
+    <string name="source_data_partition">Data Bölümü</string>
+
+    <!-- Dialogs -->
+    <string name="title_select_img">İmaj Dosyası Seç</string>
+    <string name="title_select_dir">Dizin Seç</string>
+    <string name="hint_img_boot_rec">Önerilen: boot.img / recovery.img / vbmeta.img</string>
+    <string name="msg_no_files_found">Dosya Bulunamadı</string>
+    <string name="msg_no_files_convert">Dönüştürülebilir .img dosyası bulunamadı</string>
+    <string name="msg_no_files_sign">İmzalanabilir .img dosyası bulunamadı</string>
+    <string name="msg_no_br_found">.br dosyası bulunamadı</string>
+    <string name="msg_no_dat_found">.dat dosyası bulunamadı</string>
+    <string name="msg_no_compress_found">Sıkıştırılabilir dosya bulunamadı</string>
+
+    <!-- Repack Config -->
+    <string name="label_manual_folder">Manuel Dizin Adı</string>
+    <string name="label_compress_level">Sıkıştırma Seviyesi (1-12)</string>
+    <string name="label_partition_select">Bölümleri Seç (%1$d/%2$d)</string>
+    <string name="label_convert_mode">Dönüştürme Modu</string>
+    <string name="desc_avb_sign_detail">İmajları AVB ile imzalamak için magiskboot kullan</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_appearance">Görünüm</string>
+    <string name="settings_advanced">Gelişmiş</string>
+    <string name="settings_about">Hakkında</string>
+
+    <string name="theme_mode">Tema Modu</string>
+    <string name="theme_system">Sistemi Takip Et</string>
+    <string name="theme_light">Açık Mod</string>
+    <string name="theme_dark">Koyu Mod</string>
+
+    <string name="settings_dynamic_color">Dinamik Renk</string>
+    <string name="settings_dynamic_color_summary">Duvar kâğıdından tema renkleri üret</string>
+
+    <string name="settings_language">Dil</string>
+    <string name="language_system">Sistem Varsayılanı</string>
+    <string name="language_chinese">简体中文</string>
+    <string name="language_english">İngilizce</string>
+    <string name="language_russian">Русский язык</string>
+    <string name="language_Indonesia">Endonezce</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_ukrainian">Українська</string>
+    <string name="language_turkish">Türkçe</string>
+
+    <string name="ext4_multiplier">EXT4 İmaj Boyut Çarpanı</string>
+    <string name="ext4_multiplier_desc">İmaj boyutu hesabı için çarpan katsayısı</string>
+    <string name="ext4_multiplier_label">Çarpan (1.0-2.0)</string>
+    <string name="ext4_multiplier_hint">Önerilen aralık: 1.0-1.2, varsayılan 1.05</string>
+
+    <string name="ext4_extra_space">EXT4 İmaj Ek Alanı</string>
+    <string name="ext4_extra_space_desc">EXT4 imaj paketlenirken eklenen boş alan (MB)</string>
+    <string name="ext4_extra_space_label">Ek Alan (MB)</string>
+    <string name="ext4_extra_space_hint">Paketleme 'yer kalmadı' hatasıyla başarısız olursa bu değeri artırın. Önerilen aralık: 32-256 MB</string>
+
+    <string name="formula_hint">Formül: İmaj Boyutu = Gerçek Boyut × Çarpan + Ek Alan</string>
+
+    <string name="about_app_name">Uygulama Adı</string>
+    <string name="about_version">Sürüm</string>
+    <string name="about_framework">Çerçeve</string>
+    <string name="about_ui_components">Arayüz Bileşenleri</string>
+
+    <!-- Log Messages - General -->
+    <string name="log_task_start">Görev başladı</string>
+    <string name="log_task_end">Görev tamamlandı</string>
+    <string name="log_detecting_format">İmaj formatı algılanıyor...</string>
+    <string name="log_calculating_size">Dizin boyutu hesaplanıyor...</string>
+    <string name="log_calc_result">Hesaplama sonucu: %1$s bayt (%2$d MB)</string>
+    <string name="log_size_multiplier">Boyut çarpanı: %1$s</string>
+    <string name="log_extra_space">Ek alan: %1$d MB</string>
+    <string name="log_final_size">Nihai imaj boyutu: %1$d MB</string>
+    <string name="log_settings_hint">İpucu: Ayarlar'dan EXT4 çarpanı ve ek alanı ayarlayın</string>
+    <string name="log_no_size_calc">Dizin boyutu hesaplanamadı, varsayılan 2 GB kullanılıyor</string>
+
+    <!-- Log Messages - Payload -->
+    <string name="log_payload_extracting">Payload çıkarılıyor...</string>
+    <string name="log_payload_success">Payload çıkarma başarılı</string>
+
+    <!-- Workshop (Project Management) -->
+    <string name="workshop_create_title">Yeni Proje</string>
+    <string name="workshop_create_label">Proje Adı (İngilizce)</string>
+    <string name="workshop_create_btn">Oluştur</string>
+    
+    <string name="workshop_delete_title">Proje Silinsin mi?</string>
+    <string name="workshop_delete_summary">"%1$s" silinsin mi? Bu işlem geri alınamaz.</string>
+    <string name="workshop_delete_btn">Sil</string>
+    
+    <string name="workshop_rename">Yeniden Adlandır</string>
+    <string name="workshop_rename_title">Projeyi Yeniden Adlandır</string>
+    <string name="workshop_rename_label">Yeni Ad</string>
+
+
+    
+    <string name="state_calculating">Hesaplanıyor...</string>
+    <string name="state_unknown">Bilinmiyor</string>
+
+    <!-- Log Messages - Super -->
+    <string name="log_super_unpacking">Super imajı çıkarılıyor...</string>
+    <string name="log_super_unpack_success">Super çıkarma başarılı</string>
+
+    <!-- Log Messages - Img Extract -->
+    <string name="log_img_extract_erofs">erofs çıkarılıyor...</string>
+    <string name="log_img_extract_erofs_success">erofs başarıyla çıkarıldı.</string>
+    <string name="sign_avb">AVB İmzala</string>
+
+    <!-- Log Messages - Boot -->
+    <string name="log_boot_unpacking">magiskboot unpack çalıştırılıyor...</string>
+    <string name="log_boot_unpack_success">Boot çıkarma başarılı</string>
+
+    <!-- Log Messages - Img Repack -->
+    <string name="log_img_repack_start">İmaj paketleme başlatılıyor...</string>
+    <string name="log_img_repack_success">Paketleme tamamlandı: out/%1$s.img</string>
+
+    <!-- Log Messages - Boot Repack -->
+    <string name="log_boot_repacking">magiskboot repack çalıştırılıyor...</string>
+    <string name="log_boot_repack_success">Boot paketleme başarılı: out/%1$s</string>
+
+    <!-- Log Messages - Super Repack -->
+    <string name="log_super_repacking">Super imajı paketleniyor...</string>
+    <string name="log_super_repack_success">Super paketleme başarılı</string>
+
+    <!-- Log Messages - AVB Sign -->
+    <string name="log_avb_signing">AVB imzalama yapılıyor...</string>
+    <string name="log_avb_sign_success">AVB imzalama başarılı</string>
+
+    <!-- Log Messages - Convert -->
+    <string name="log_convert_start">Format dönüştürme başlatılıyor...</string>
+    <string name="log_convert_success">Format dönüştürme başarılı</string>
+
+    <!-- Supplemental Log Messages -->
+    <string name="log_target_file">Hedef: %1$s</string>
+    <string name="log_mount_ext4_attempt">EXT4 imajı bağlanmaya çalışılıyor...</string>
+    <string name="log_root_required">Root izni gerekli</string>
+    <string name="log_mount_ext4_success">EXT4 imajı başarıyla bağlandı ve çıkarıldı</string>
+    <string name="log_mount_ext4_failed">EXT4 bağlama başarısız</string>
+    <string name="log_mount_ext4_hint">İpucu: Root izniniz olduğundan emin olun veya manuel bağlayın</string>
+    <string name="log_unpack_failed">Çıkarma başarısız</string>
+    <string name="log_repack_failed">Paketleme başarısız</string>
+    <string name="log_analyzing_sizes">İmaj boyutları analiz ediliyor...</string>
+    <string name="log_super_size">Super Boyutu: %1$d MB</string>
+    <string name="log_backing_up">Orijinal dosya yedekleniyor...</string>
+    <string name="log_backup_saved">Yedek kaydedildi: %1$s</string>
+    <string name="log_action_failed">Başarısız</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="tab_workshop">Atölye</string>
+    <string name="tab_about">Hakkında</string>
+    
+    <!-- About Page -->
+    <string name="about_title">Hakkında</string>
+    <string name="about_app_info">Uygulama Bilgileri</string>
+    <string name="about_app_description">ImageStudio, Payload çıkarma, Super bölüm yönetimi, imaj paketleme ve daha fazlasını destekleyen güçlü bir ROM araç setidir.</string>
+    <string name="about_developer">Geliştirici</string>
+    <string name="about_github_summary">Kaynak kodunu görüntüle ve katkıda bulun</string>
+    <string name="about_report_issue">Sorun Bildir</string>
+    <string name="about_report_issue_summary">Hataları bildirin veya GitHub'da özellik önerin</string>
+    <string name="about_open_source">Açık Kaynak Lisansları</string>
+    <string name="about_open_source_summary">Kullanılan açık kaynak projeleri görüntüle</string>
+    <string name="about_made_with_love">Compose Multiplatform ile ❤️ kullanılarak yapıldı</string>
+    <string name="plugins">Eklentiler</string>
+    <string name="search">Ara</string>
+    <string name="install">Yükle</string>
+    <string name="install_complete">Yükleme Tamamlandı</string>
+    <string name="install_plugin">Eklenti Yükle</string>
+    <string name="click_to_manage_plugins">Eklentileri yönetmek için tıklayın</string>
+    <string name="open_source_licenses">Açık kaynak lisansları</string>
+    <string name="contributors_title">Katkıda Bulunanlar</string>
+    <string name="select_all">Tümünü Seç</string>
+    <string name="deselect_all">Seçimi Kaldır</string>
+    <string name="from">Kimden</string>
+    <string name="to">Kime</string>
+    <string name="architecture">Mimari</string>
+    <string name="user_name">Kullanıcı Adı</string>
+    <string name="platform_backend">Platform Altyapısı</string>
+    <string name="payload_dump_threads_num">Payload Döküm İş Parçacıkları</string>
+    <string name="payload_extraction_concurrency">Payload çıkarma eşzamanlılığı</string>
+    <string name="support_old_kernel">Eski Kernel Desteği</string>
+    <string name="repack_method">Paketleme Yöntemi</string>
+    <string name="search_partitions">Bölümleri Ara</string>
+    <string name="got_it">Anladım</string>
+    <string name="no_detail_logs">Detaylı günlük yok</string>
+    <string name="processing">İşleniyor...</string>
+    <string name="execution_steps">Yürütme Adımları</string>
+</resources>

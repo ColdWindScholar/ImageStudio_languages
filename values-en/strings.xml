@@ -1,0 +1,274 @@
+<resources>
+    <string name="app_name">ImageStudio</string>
+    <string name="translator">Translated by ImageStudioTeam</string>
+    <!-- Common Buttons -->
+    <string name="btn_close">Close</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_start_convert">Start Convert</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_back">Back</string>
+
+    <!-- Screen Titles -->
+    <string name="wb_title">Workbench</string>
+    <string name="wb_task_status">Task Status</string>
+    <string name="wb_open_folder">Open Folder</string>
+    <string name="settings_title">Settings</string>
+
+    <!-- Group Titles -->
+    <string name="group_unpack">Unpack Tools</string>
+    <string name="group_repack">Repack Tools</string>
+    <string name="group_advanced">Advanced</string>
+
+    <!-- Unpack Tools -->
+    <string name="tool_payload">Payload Extract</string>
+    <string name="desc_payload">Extract payload.bin firmware</string>
+
+    <string name="tool_super_unpack">Super Unpack</string>
+    <string name="desc_super_unpack">lpunpack partition extraction</string>
+
+    <string name="tool_img_extract">Img Extract</string>
+    <string name="desc_img_extract">Extract erofs/ext4 image contents</string>
+
+    <!-- Repack Tools -->
+    <string name="tool_img_repack">Img Repack</string>
+    <string name="desc_img_repack">Pack erofs/ext4/boot images</string>
+
+    <string name="tool_super_repack">Super Repack</string>
+    <string name="desc_super_repack">lpmake generate super.img</string>
+
+    <!-- Advanced Tools -->
+    <string name="tool_sign_image">AVB Sign</string>
+    <string name="desc_avb_sign">Add AVB verification to image</string>
+
+    <string name="tool_fmt_convert">Format Convert</string>
+    <string name="desc_fmt_convert">Multi format conversion</string>
+
+    <!-- Status & Messages -->
+    <string name="status_executing">Executing task</string>
+    <string name="status_completed">Task completed</string>
+    <string name="status_running">Running...</string>
+    <string name="status_done">Done</string>
+    <string name="status_initializing">Initializing...</string>
+    <string name="status_ready">Ready</string>
+    <string name="status_waiting">Waiting for task...</string>
+    <string name="status_duration">Duration: %1$s</string>
+
+    <string name="log_details">Detailed Log</string>
+    <string name="msg_dont_close">Do not close window or exit program</string>
+    <string name="msg_no_files">No related files found in current directory</string>
+    <string name="msg_no_imgs_found">No .img files found</string>
+    <string name="msg_waiting_log">Waiting for log output...</string>
+    <string name="msg_no_log">No logs</string>
+
+    <!-- File Selection & Configuration -->
+    <string name="convert_select_file">Select File</string>
+    <string name="convert_direction">Conversion Direction</string>
+    <string name="convert_title">Format Conversion Config</string>
+
+    <string name="repack_select_dir">Select Folder</string>
+    <string name="repack_manual_dir">Enter directory name manually</string>
+
+    <string name="repack_img_title">Img Repack Config</string>
+    <string name="repack_fs_type">Filesystem Type</string>
+    <string name="repack_compress_algo">Compression Algorithm</string>
+    <string name="repack_compress_level">Compression Level</string>
+
+    <string name="super_title">Super Repack Config</string>
+    <string name="title_select_partitions">Selected %1$d / Total %2$d partitions</string>
+    <string name="super_size_mode">Size Mode</string>
+    <string name="super_size_auto">Auto Calculate</string>
+    <string name="super_size_manual">Manual Specify</string>
+    <string name="super_size_custom_hint">Enter size (bytes)</string>
+    <string name="opt_sparse_image">Generate Sparse Image</string>
+    <string name="opt_virtual_ab">Virtual A/B</string>
+    <string name="label_group_name">Group Name</string>
+    <string name="label_device_name">Device Name</string>
+
+    <string name="source_project_root">Project Root Directory</string>
+    <string name="source_data_partition">Data Partition</string>
+
+    <!-- Dialogs -->
+    <string name="title_select_img">Select Image File</string>
+    <string name="title_select_dir">Select Directory</string>
+    <string name="hint_img_boot_rec">Recommended: boot.img / recovery.img / vbmeta.img</string>
+    <string name="msg_no_files_found">No Files Found</string>
+    <string name="msg_no_files_convert">No convertible .img files found</string>
+    <string name="msg_no_files_sign">No signable .img files found</string>
+    <string name="msg_no_br_found">No .br files found</string>
+    <string name="msg_no_dat_found">No .dat files found</string>
+    <string name="msg_no_compress_found">No compressible files found</string>
+
+    <!-- Repack Config -->
+    <string name="label_manual_folder">Manual Directory Name</string>
+    <string name="label_compress_level">Compress Level (1-12)</string>
+    <string name="label_partition_select">Select Partitions (%1$d/%2$d)</string>
+    <string name="label_convert_mode">Convert Mode</string>
+    <string name="desc_avb_sign_detail">Use magiskboot to sign images with AVB</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_advanced">Advanced</string>
+    <string name="settings_about">About</string>
+
+    <string name="theme_mode">Theme Mode</string>
+    <string name="theme_system">Follow System</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+
+    <string name="settings_dynamic_color">Dynamic Color</string>
+    <string name="settings_dynamic_color_summary">Generate theme colors from wallpaper</string>
+
+    <string name="settings_language">Language</string>
+    <string name="language_system">System Default</string>
+    <string name="language_chinese">简体中文</string>
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский язык</string>
+    <string name="language_Indonesia">Indonesia</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_ukrainian">Українська</string>
+    <string name="language_turkish">Türkçe</string>
+
+    <string name="ext4_multiplier">EXT4 Image Size Multiplier</string>
+    <string name="ext4_multiplier_desc">Multiplier coefficient for image size calculation</string>
+    <string name="ext4_multiplier_label">Multiplier (1.0-2.0)</string>
+    <string name="ext4_multiplier_hint">Recommended range: 1.0-1.2, default 1.05</string>
+
+    <string name="ext4_extra_space">EXT4 Image Extra Space</string>
+    <string name="ext4_extra_space_desc">Extra space added when packing EXT4 image (MB)</string>
+    <string name="ext4_extra_space_label">Extra Space (MB)</string>
+    <string name="ext4_extra_space_hint">Increase this value if packing fails with out of space error. Recommended range: 32-256 MB</string>
+
+    <string name="formula_hint">Formula: Image Size = Actual Size × Multiplier + Extra Space</string>
+
+    <string name="about_app_name">App Name</string>
+    <string name="about_version">Version</string>
+    <string name="about_framework">Framework</string>
+    <string name="about_ui_components">UI Components</string>
+
+    <!-- Log Messages - General -->
+    <string name="log_task_start">Task started</string>
+    <string name="log_task_end">Task completed</string>
+    <string name="log_detecting_format">Detecting image format...</string>
+    <string name="log_calculating_size">Calculating directory size...</string>
+    <string name="log_calc_result">Calculation result: %1$s bytes (%2$d MB)</string>
+    <string name="log_size_multiplier">Size multiplier: %1$s</string>
+    <string name="log_extra_space">Extra space: %1$d MB</string>
+    <string name="log_final_size">Final image size: %1$d MB</string>
+    <string name="log_settings_hint">Tip: Adjust EXT4 multiplier and extra space in Settings</string>
+    <string name="log_no_size_calc">Unable to calculate directory size, using default 2GB</string>
+
+    <!-- Log Messages - Payload -->
+    <string name="log_payload_extracting">Extracting Payload...</string>
+    <string name="log_payload_success">Payload extraction successful</string>
+
+    <!-- Workshop (Project Management) -->
+    <string name="workshop_create_title">New Project</string>
+    <string name="workshop_create_label">Project Name (English)</string>
+    <string name="workshop_create_btn">Create</string>
+    
+    <string name="workshop_delete_title">Delete Project?</string>
+    <string name="workshop_delete_summary">Are you sure you want to delete "%1$s"? This action cannot be undone.</string>
+    <string name="workshop_delete_btn">Delete</string>
+    
+    <string name="workshop_rename">Rename</string>
+    <string name="workshop_rename_title">Rename Project</string>
+    <string name="workshop_rename_label">New Name</string>
+
+
+    
+    <string name="state_calculating">Calculating...</string>
+    <string name="state_unknown">Unknown</string>
+
+    <!-- Log Messages - Super -->
+    <string name="log_super_unpacking">Unpacking Super image...</string>
+    <string name="log_super_unpack_success">Super unpack successful</string>
+
+    <!-- Log Messages - Img Extract -->
+    <string name="log_img_extract_erofs">Extracting erofs ...</string>
+    <string name="log_img_extract_erofs_success">Extract erofs successfully.</string>
+    <string name="sign_avb">AVB Sign</string>
+
+    <!-- Log Messages - Boot -->
+    <string name="log_boot_unpacking">Executing magiskboot unpack...</string>
+    <string name="log_boot_unpack_success">Boot unpack successful</string>
+
+    <!-- Log Messages - Img Repack -->
+    <string name="log_img_repack_start">Starting image packing...</string>
+    <string name="log_img_repack_success">Packing completed: out/%1$s.img</string>
+
+    <!-- Log Messages - Boot Repack -->
+    <string name="log_boot_repacking">Executing magiskboot repack...</string>
+    <string name="log_boot_repack_success">Boot repack successful: out/%1$s</string>
+
+    <!-- Log Messages - Super Repack -->
+    <string name="log_super_repacking">Packing Super image...</string>
+    <string name="log_super_repack_success">Super repack successful</string>
+
+    <!-- Log Messages - AVB Sign -->
+    <string name="log_avb_signing">Performing AVB signing...</string>
+    <string name="log_avb_sign_success">AVB signing successful</string>
+
+    <!-- Log Messages - Convert -->
+    <string name="log_convert_start">Starting format conversion...</string>
+    <string name="log_convert_success">Format conversion successful</string>
+
+    <!-- Supplemental Log Messages -->
+    <string name="log_target_file">Target: %1$s</string>
+    <string name="log_mount_ext4_attempt">Attempting to mount EXT4 image...</string>
+    <string name="log_root_required">Root permission required</string>
+    <string name="log_mount_ext4_success">EXT4 image mounted and unpacked successfully</string>
+    <string name="log_mount_ext4_failed">EXT4 mount failed</string>
+    <string name="log_mount_ext4_hint">Tip: Ensure you have root permission or mount manually</string>
+    <string name="log_unpack_failed">Unpack failed</string>
+    <string name="log_repack_failed">Repack failed</string>
+    <string name="log_analyzing_sizes">Analyzing image sizes...</string>
+    <string name="log_super_size">Super Size: %1$d MB</string>
+    <string name="log_backing_up">Backing up original file...</string>
+    <string name="log_backup_saved">Backup saved: %1$s</string>
+    <string name="log_action_failed">Failed</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="tab_workshop">Workshop</string>
+    <string name="tab_about">About</string>
+    
+    <!-- About Page -->
+    <string name="about_title">About</string>
+    <string name="about_app_info">App Information</string>
+    <string name="about_app_description">ImageStudio is a powerful ROM toolkit that supports Payload extraction, Super partition management, image packing and more.</string>
+    <string name="about_developer">Developer</string>
+    <string name="about_github_summary">View source code and contribute</string>
+    <string name="about_report_issue">Report Issue</string>
+    <string name="about_report_issue_summary">Report bugs or suggest features on GitHub</string>
+    <string name="about_open_source">Open Source Licenses</string>
+    <string name="about_open_source_summary">View open source projects used</string>
+    <string name="about_made_with_love">Made with ❤️ using Compose Multiplatform</string>
+    <string name="plugins">Plugins</string>
+    <string name="search">Search</string>
+    <string name="install">Install</string>
+    <string name="install_complete">Install Complete</string>
+    <string name="install_plugin">Install Plugin</string>
+    <string name="click_to_manage_plugins">Click to manage plugins</string>>
+    <string name="open_source_licenses">Open source licenses</string>
+    <string name="contributors_title">Contributors</string>
+    <string name="select_all">Select All</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="architecture">Architecture</string>
+    <string name="user_name">User Name</string>
+    <string name="platform_backend">Platform Backend</string>
+    <string name="payload_dump_threads_num">Payload Dump Threads</string>
+    <string name="payload_extraction_concurrency">Payload extraction concurrency</string>
+    <string name="support_old_kernel">Support Old Kernel</string>
+    <string name="repack_method">Repack Method</string>
+    <string name="search_partitions">Search Partitions</string>
+    <string name="got_it">Got it</string>
+    <string name="no_detail_logs">No detail logs</string>
+    <string name="processing">Processing...</string>
+    <string name="execution_steps">Execution Steps</string>
+    <string name="set_partitions_size">Set partitions size</string>
+    <string name="manually">Manually</string>
+    <string name="auto">Auto</string>
+    <string name="enable_sparse">Enable Sparse</string>
+</resources>

@@ -1,0 +1,281 @@
+<resources>
+    <string name="app_name">镜像工坊</string>
+    <string name="translator">由镜像工坊团队翻译</string>
+    <!-- 通用按钮 -->
+    <string name="btn_close">关闭</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_start">开始执行</string>
+    <string name="btn_start_convert">开始转换</string>
+    <string name="btn_confirm">确定</string>
+    <string name="btn_back">返回</string>
+
+    <!-- 界面标题 -->
+    <string name="wb_title">工作台</string>
+    <string name="wb_task_status">任务状态</string>
+    <string name="wb_open_folder">打开文件夹</string>
+    <string name="settings_title">设置</string>
+
+    <!-- 分组标题 -->
+    <string name="group_unpack">解包工具</string>
+    <string name="group_repack">打包工具</string>
+    <string name="group_advanced">高级功能</string>
+
+    <!-- 解包工具 -->
+    <string name="tool_payload">Payload 解包</string>
+    <string name="desc_payload">提取 payload.bin 固件</string>
+
+    <string name="tool_super_unpack">Super 分解</string>
+    <string name="desc_super_unpack">lpunpack 分区提取</string>
+
+    <string name="tool_img_extract">Img 提取</string>
+    <string name="desc_img_extract">提取 erofs/ext4/boot 镜像内容</string>
+
+    <!-- 打包工具 -->
+    <string name="tool_img_repack">Img 打包</string>
+    <string name="desc_img_repack">打包为 erofs/ext4/boot 镜像</string>
+    <string name="tool_super_repack">Super 打包</string>
+    <string name="desc_super_repack">lpmake 生成 super.img</string>
+
+    <!-- 高级工具 -->
+    <string name="tool_sign_image">AVB 签名</string>
+    <string name="desc_avb_sign">为镜像添加 AVB 验证</string>
+
+    <string name="tool_fmt_convert">格式转换</string>
+    <string name="desc_fmt_convert">多种格式转换</string>
+
+    <!-- 状态与提示 -->
+    <string name="status_executing">正在执行任务</string>
+    <string name="status_completed">任务已结束</string>
+    <string name="status_running">执行中...</string>
+    <string name="status_done">完成</string>
+    <string name="status_initializing">正在初始化...</string>
+    <string name="status_ready">准备就绪</string>
+    <string name="status_waiting">等待任务开始...</string>
+    <string name="status_duration">耗时: %1$s</string>
+
+    <string name="log_details">详细日志</string>
+    <string name="msg_dont_close">请勿关闭窗口或退出程序</string>
+    <string name="msg_no_files">当前目录下未找到相关文件</string>
+    <string name="msg_no_imgs_found">未找到 .img 文件</string>
+    <string name="msg_waiting_log">等待日志输出...</string>
+    <string name="msg_no_log">暂无日志</string>
+
+    <!-- 文件选择与配置 -->
+    <string name="convert_select_file">选择文件</string>
+    <string name="convert_direction">转换方向</string>
+    <string name="convert_title">格式转换配置</string>
+
+    <string name="repack_select_dir">选择文件夹</string>
+    <string name="repack_manual_dir">手动输入目录名</string>
+
+    <string name="repack_img_title">Img 打包配置</string>
+    <string name="repack_fs_type">文件系统类型</string>
+    <string name="repack_compress_algo">压缩算法</string>
+    <string name="repack_compress_level">压缩等级</string>
+
+    <string name="super_title">Super 打包配置</string>
+    <string name="title_select_partitions">已选 %1$d / 共 %2$d 个分区</string>
+    <string name="super_size_mode">大小模式</string>
+    <string name="super_size_auto">自动计算</string>
+    <string name="super_size_manual">手动指定</string>
+    <string name="super_size_custom_hint">输入大小 (字节)</string>
+    <string name="opt_sparse_image">生成 Sparse 镜像</string>
+    <string name="opt_virtual_ab">Virtual A/B</string>
+    <string name="label_group_name">组名 (Group Name)</string>
+    <string name="label_device_name">设备名 (Device Name)</string>
+
+    <string name="source_project_root">工作区根目录</string>
+    <string name="source_data_partition">Data 分区</string>
+
+    <!-- 弹窗通用 -->
+    <string name="title_select_img">选择镜像文件</string>
+    <string name="title_select_dir">选择目录</string>
+    <string name="hint_img_boot_rec">推荐: boot.img / recovery.img / vbmeta.img</string>
+    <string name="msg_no_files_found">未找到文件</string>
+    <string name="msg_no_files_convert">未找到可转换的 .img 文件</string>
+    <string name="msg_no_files_sign">未找到可签名的 .img 文件</string>
+    <string name="msg_no_br_found">未找到 .br 文件</string>
+    <string name="msg_no_dat_found">未找到 .dat 文件</string>
+    <string name="msg_no_compress_found">未找到可压缩的文件</string>
+
+    <!-- 打包配置 -->
+    <string name="label_manual_folder">手动输入目录名</string>
+    <string name="label_compress_level">压缩等级 (1-12)</string>
+    <string name="label_partition_select">选择要打包的分区 (%1$d/%2$d)</string>
+    <string name="label_convert_mode">转换模式</string>
+    <string name="desc_avb_sign_detail">使用 magiskboot 对镜像进行 AVB 签名</string>
+
+    <!-- 设置界面 -->
+    <string name="settings_appearance">外观</string>
+    <string name="settings_advanced">高级</string>
+    <string name="settings_storage">存储</string>
+    <string name="projects_directory">工程目录</string>
+    <string name="projects_directory_desc">自定义项目存储位置</string>
+    <string name="projects_directory_hint">留空使用默认位置</string>
+    <string name="projects_directory_default">默认: &lt;软件目录&gt;/Projects</string>
+    <string name="btn_reset_default">重置为默认</string>
+    <string name="settings_about">关于</string>
+
+    <string name="theme_mode">主题模式</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="theme_light">浅色模式</string>
+    <string name="theme_dark">深色模式</string>
+
+    <string name="settings_dynamic_color">动态取色</string>
+    <string name="settings_dynamic_color_summary">通过壁纸颜色生成主题</string>
+
+    <string name="settings_language">语言</string>
+    <string name="language_system">跟随系统</string>
+    <string name="language_chinese">简体中文</string>
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский язык</string>
+    <string name="language_Indonesia">Indonesia</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_ukrainian">Українська</string>
+    <string name="language_turkish">Türkçe</string>
+
+    <string name="ext4_multiplier">EXT4 镜像大小倍率</string>
+    <string name="ext4_multiplier_desc">计算镜像大小时的倍率系数</string>
+    <string name="ext4_multiplier_label">倍率 (1.0-2.0)</string>
+    <string name="ext4_multiplier_hint">建议范围：1.0-1.2，默认 1.05</string>
+
+    <string name="ext4_extra_space">EXT4 镜像额外空间</string>
+    <string name="ext4_extra_space_desc">打包 EXT4 镜像时添加的额外空间（MB）</string>
+    <string name="ext4_extra_space_label">额外空间 (MB)</string>
+    <string name="ext4_extra_space_hint">如果打包失败提示空间不足，可增大此值。建议范围：32-256 MB</string>
+
+    <string name="formula_hint">计算公式：镜像大小 = 实际大小 × 倍率 + 额外空间</string>
+
+    <string name="about_app_name">应用名称</string>
+    <string name="about_version">版本</string>
+    <string name="about_framework">开发框架</string>
+    <string name="about_ui_components">UI 组件</string>
+
+    <!-- 日志消息 - 通用 -->
+    <string name="log_task_start">任务开始</string>
+    <string name="log_task_end">任务结束</string>
+    <string name="log_detecting_format">正在检测镜像格式...</string>
+    <string name="log_calculating_size">正在计算目录大小...</string>
+    <string name="log_calc_result">计算结果: %1$s 字节 (%2$d MB)</string>
+    <string name="log_size_multiplier">大小倍率: %1$s</string>
+    <string name="log_extra_space">额外空间: %1$d MB</string>
+    <string name="log_final_size">最终镜像大小: %1$d MB</string>
+    <string name="log_settings_hint">提示：可在设置中调整 EXT4 倍率和额外空间</string>
+    <string name="log_no_size_calc">无法计算目录大小，使用默认值 2GB</string>
+
+    <!-- 日志消息 - Payload -->
+    <string name="log_payload_extracting">正在提取 Payload...</string>
+    <string name="log_payload_success">Payload 解包成功</string>
+
+    <!-- Workshop (项目管理) -->
+    <string name="workshop_create_title">新建项目</string>
+    <string name="workshop_create_label">项目名称 (英文)</string>
+    <string name="workshop_create_btn">创建</string>
+    
+    <string name="workshop_delete_title">删除项目?</string>
+    <string name="workshop_delete_summary">确定要删除 "%1$s" 吗？此操作无法撤销。</string>
+    <string name="workshop_delete_btn">删除</string>
+    
+    <string name="workshop_rename">重命名</string>
+    <string name="workshop_rename_title">重命名项目</string>
+    <string name="workshop_rename_label">新名称</string>
+
+    
+    <string name="state_calculating">计算中...</string>
+    <string name="state_unknown">未知</string>
+
+    <!-- 日志消息 - Super -->
+    <string name="log_super_unpacking">正在分解 Super 镜像...</string>
+    <string name="log_super_unpack_success">Super 分解成功</string>
+
+    <!-- 日志消息 - Img Extract -->
+    <string name="log_img_extract_erofs">正在提取 erofs ...</string>
+    <string name="log_img_extract_erofs_success">提取 erofs 成功.</string>
+    <string name="sign_avb">AVB 签名</string>
+
+
+    <!-- 日志消息 - Boot -->
+    <string name="log_boot_unpacking">执行 magiskboot unpack...</string>
+    <string name="log_boot_unpack_success">Boot 分解成功</string>
+
+    <!-- 日志消息 - Img Repack -->
+    <string name="log_img_repack_start">开始打包镜像...</string>
+    <string name="log_img_repack_success">打包结束: out/%1$s.img</string>
+
+    <!-- 日志消息 - Boot Repack -->
+    <string name="log_boot_repacking">执行 magiskboot repack...</string>
+    <string name="log_boot_repack_success">Boot 打包成功: out/%1$s</string>
+
+    <!-- 日志消息 - Super Repack -->
+    <string name="log_super_repacking">正在打包 Super 镜像...</string>
+    <string name="log_super_repack_success">Super 打包成功</string>
+
+    <!-- 日志消息 - AVB Sign -->
+    <string name="log_avb_signing">正在进行 AVB 签名...</string>
+    <string name="log_avb_sign_success">AVB 签名成功</string>
+
+    <!-- 日志消息 - Convert -->
+    <string name="log_convert_start">开始格式转换...</string>
+    <string name="log_convert_success">格式转换成功</string>
+    <!-- 补充日志消息 -->
+    <string name="log_target_file">目标文件: %1$s</string>
+    <string name="log_mount_ext4_attempt">尝试挂载 EXT4 镜像...</string>
+    <string name="log_root_required">需要 root 权限</string>
+    <string name="log_mount_ext4_success">EXT4 镜像挂载解包成功</string>
+    <string name="log_mount_ext4_failed">EXT4 挂载失败</string>
+    <string name="log_mount_ext4_hint">提示：请确保有 root 权限，或手动挂载镜像</string>
+    <string name="log_unpack_failed">分解失败</string>
+    <string name="log_repack_failed">打包失败</string>
+    <string name="log_analyzing_sizes">正在分析镜像大小...</string>
+    <string name="log_super_size">Super 大小: %1$d MB</string>
+    <string name="log_backing_up">正在备份原文件...</string>
+    <string name="log_backup_saved">备份已保存: %1$s</string>
+    <string name="log_action_failed">失败</string>
+    
+    <!-- 底部导航 -->
+    <string name="tab_workshop">工作区</string>
+    <string name="tab_about">关于</string>
+    
+    <!-- 关于页面 -->
+    <string name="about_title">关于</string>
+    <string name="about_app_info">应用信息</string>
+    <string name="about_app_description">镜像工坊 是一个 ROM 工具箱，支持 Payload 解包、Super 分区管理、镜像打包等功能。</string>
+    <string name="about_developer">开发者</string>
+    <string name="about_github_summary">查看源代码和贡献</string>
+    <string name="about_report_issue">反馈问题</string>
+    <string name="about_report_issue_summary">在 GitHub 上报告 Bug 或提出建议</string>
+    <string name="about_open_source">开源许可</string>
+    <string name="about_open_source_summary">查看使用的开源项目</string>
+    <string name="about_made_with_love">基于Compose Multiplatform, 用❤️打造</string>
+    <string name="size_label">大小: %1$s</string>
+    <string name="coolapk">酷安</string>
+    <string name="contributors_title">贡献者</string>
+    <!--  插件页面 -->
+    <string name="plugins">插件</string>>
+    <string name="search">搜索</string>>
+    <string name="install">安装</string>>
+    <string name="install_complete">安装完成</string>>
+    <string name="install_plugin">安装插件</string>>
+    <string name="click_to_manage_plugins">点击以管理插件</string>>
+    <string name="open_source_licenses">开放源代码许可</string>>
+    <string name="select_all">全选</string>>
+    <string name="deselect_all">取消全选</string>>
+    <string name="from">从</string>>
+    <string name="to">到</string>>
+    <string name="architecture">架构</string>
+    <string name="user_name">用户名</string>
+    <string name="platform_backend">平台后端</string>
+    <string name="payload_dump_threads_num">Payload 提取线程数</string>
+    <string name="payload_extraction_concurrency">Payload 提取时的并行线程数</string>
+    <string name="support_old_kernel">支持旧内核</string>
+    <string name="repack_method">打包方式</string>
+    <string name="search_partitions">搜索分区</string>
+    <string name="got_it">我明白了</string>
+    <string name="no_detail_logs">暂无详细日志</string>
+    <string name="processing">正在处理...</string>
+    <string name="execution_steps">执行步骤</string>
+    <string name="set_partitions_size">分区大小设置</string>
+    <string name="manually">手动</string>
+    <string name="auto">自动</string>
+    <string name="enable_sparse">启用 Sparse</string>
+</resources>

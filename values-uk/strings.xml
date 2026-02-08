@@ -1,0 +1,265 @@
+<resources>
+    <string name="app_name">Image Студія</string>
+
+    <!-- Common Buttons -->
+    <string name="btn_close">Закрити</string>
+    <string name="btn_cancel">Скасувати</string>
+    <string name="btn_start">Почати</string>
+    <string name="btn_start_convert">Почати конвертацію</string>
+    <string name="btn_confirm">Погодитися</string>
+    <string name="btn_back">Назад</string>
+
+    <!-- Screen Titles -->
+    <string name="wb_title">Верстак</string>
+    <string name="wb_task_status">Статус завдання</string>
+    <string name="wb_open_folder">Відкрити папку</string>
+    <string name="settings_title">Налаштування</string>
+
+    <!-- Group Titles -->
+    <string name="group_unpack">Розпакувати Інструменти</string>
+    <string name="group_repack">Запакувати Інструменти</string>
+    <string name="group_advanced">Додатково</string>
+
+    <!-- Unpack Tools -->
+    <string name="tool_payload">Витягти Payload.bin</string>
+    <string name="desc_payload">Витягти payload.bin прошивки</string>
+
+    <string name="tool_super_unpack">Розпакувати Super.img</string>
+    <string name="desc_super_unpack">Витягти розділ lpunpack</string>
+
+    <string name="tool_img_extract">Витягти .img файли</string>
+    <string name="desc_img_extract">Витягти erofs/ext4 вміст зображення</string>
+
+    <!-- Repack Tools -->
+    <string name="tool_img_repack">Перезібрати .img</string>
+    <string name="desc_img_repack">Пакувати erofs/ext4/boot зображення</string>
+
+    <string name="tool_super_repack">Перезібрати Super.img</string>
+    <string name="desc_super_repack">lpmake створити super.img</string>
+
+    <!-- Advanced Tools -->
+    <string name="tool_sign_image">AVB підпис</string>
+    <string name="desc_avb_sign">Додати AVB верифікацію до зображення</string>
+
+    <string name="tool_fmt_convert">Конвертація формату</string>
+    <string name="desc_fmt_convert">Багатоформатне перетворення</string>
+
+    <!-- Status & Messages -->
+    <string name="status_executing">Виконання завдання</string>
+    <string name="status_completed">Завдання завершено</string>
+    <string name="status_running">У процесі</string>
+    <string name="status_done">Готово</string>
+    <string name="status_initializing">Ініціалізація...</string>
+    <string name="status_ready">Готовий</string>
+    <string name="status_waiting">Очікування завдання</string>
+    <string name="status_duration">Тривалість: %1$s</string>
+
+    <string name="log_details">Детальний журнал</string>
+    <string name="msg_dont_close">Не закривайте вікно і не виходьте з програми</string>
+    <string name="msg_no_files">У поточному каталозі не знайдено пов'язаних файлів.</string>
+    <string name="msg_no_imgs_found">.img файли не знайдено</string>
+    <string name="msg_waiting_log">Очікування виведення логів...</string>
+    <string name="msg_no_log">Немає логів</string>
+
+    <!-- File Selection & Configuration -->
+    <string name="convert_select_file">Вибрати файл</string>
+    <string name="convert_direction">Напрямок конвертації</string>
+    <string name="convert_title">Конфігурація перетворення формату</string>
+
+    <string name="repack_select_dir">Вибрати папку</string>
+    <string name="repack_manual_dir">Ввести назву каталогу вручну</string>
+
+    <string name="repack_img_title">.Img Перезібрати конфіг</string>
+    <string name="repack_fs_type">Тип файлової системи</string>
+    <string name="repack_compress_algo">Алгоритм стиснення</string>
+    <string name="repack_compress_level">Рівень стиснення</string>
+    <string name="repack_mount_point">Точка монтування</string>
+
+    <string name="super_title">Перезібрати конфіг Super.img</string>
+    <string name="title_select_partitions">Вибрано %1$d / Загалом %2$d розділів</string>
+    <string name="super_size_mode">Режим розміру</string>
+    <string name="super_size_auto">Автокалькулятор</string>
+    <string name="super_size_manual">Ручне вказівка</string>
+    <string name="super_size_custom_hint">Вказати розмір (в байтах)</string>
+    <string name="opt_sparse_image">Згенерувати Sparse зображення</string>
+    <string name="opt_virtual_ab">Віртуальний A/B</string>
+    <string name="label_group_name">Назва групи</string>
+    <string name="label_device_name">Назва пристрою</string>
+
+    <string name="source_project_root">Кореневий каталог проекту</string>
+    <string name="source_data_partition">Розділ даних</string>
+
+    <!-- Dialogs -->
+    <string name="title_select_img">Вибрати файл .img</string>
+    <string name="title_select_dir">Вибрати директорію</string>
+    <string name="hint_img_boot_rec">Рекомендація: boot.img / recovery.img / vbmeta.img</string>
+    <string name="msg_no_files_found">Файли не знайдено</string>
+    <string name="msg_no_files_convert">Файли .img, придатні для конвертації, не знайдено.</string>
+    <string name="msg_no_files_sign">Підписані .img файли не знайдено.</string>
+    <string name="msg_no_br_found">Файли .br не знайдено</string>
+    <string name="msg_no_dat_found">Файли .dat не знайдено</string>
+    <string name="msg_no_compress_found">Файли для стиснення не знайдено</string>
+
+    <!-- Repack Config -->
+    <string name="label_manual_folder">Ім'я каталогу для ручного керування</string>
+    <string name="label_compress_level">Рівень стиснення (1-12)</string>
+    <string name="label_partition_select">Вибрати розділи (%1$d/%2$d)</string>
+    <string name="label_convert_mode">Режими конвертації</string>
+    <string name="desc_avb_sign_detail">Використовуйте MagiskBoot для підпису зображень за допомогою AVB.</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_appearance">Зовнішній вигляд</string>
+    <string name="settings_advanced">Додатково</string>
+    <string name="settings_about">Про програму</string>
+
+    <string name="theme_mode">Тематичний режим</string>
+    <string name="theme_system">За замовчуванням системи</string>
+    <string name="theme_light">Світлий режим</string>
+    <string name="theme_dark">Темний режим</string>
+
+    <string name="settings_dynamic_color">Динамічний колір</string>
+    <string name="settings_dynamic_color_summary">Генерувати кольори теми з шпалер.</string>
+
+    <string name="settings_language">Мова</string>
+    <string name="language_system">Системні налаштування за замовчуванням</string>
+    <string name="language_chinese">简体中文</string>
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский язык</string>
+    <string name="language_Indonesia">Endonezce</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_ukrainian">Українська</string>
+    <string name="language_turkish">Türkçe</string>
+
+    <string name="ext4_multiplier">EXT4 множник розміру зображення</string>
+    <string name="ext4_multiplier_desc">Коефіцієнт множника для розрахунку розміру зображення</string>
+    <string name="ext4_multiplier_label">Множник (1.0-2.0)</string>
+    <string name="ext4_multiplier_hint">Рекомендований діапазон: 1.0-1.2, зазвичай 1.05</string>
+
+    <string name="ext4_extra_space">EXT4 додатковий простір для зображення</string>
+    <string name="ext4_extra_space_desc">Додатковий простір, що додається при пакуванні образу EXT4 (Мегабайти)</string>
+    <string name="ext4_extra_space_label">Додатковий простір (Мегабайти)</string>
+    <string name="ext4_extra_space_hint">Збільште це значення, якщо пакування завершується помилкою нестачі місця. Рекомендований діапазон: 32-256 Мегабайт.</string>
+
+    <string name="formula_hint">Формула: Розмір зображення = Фактичний розмір × Множник + Додатковий простір</string>
+
+    <string name="about_app_name">Назва програми</string>
+    <string name="about_version">Версія</string>
+    <string name="about_framework">Фреймворк</string>
+    <string name="about_ui_components">Компоненти користувацького інтерфейсу</string>
+
+    <!-- Log Messages - General -->
+    <string name="log_task_start">Завдання розпочато</string>
+    <string name="log_task_end">Завдання завершено</string>
+    <string name="log_detecting_format">Визначення формату зображення...</string>
+    <string name="log_calculating_size">Розрахунок розміру каталогу...</string>
+    <string name="log_calc_result">Результат розрахунку: %1$s байтів (%2$d Мегабайтів)</string>
+    <string name="log_size_multiplier">Множник розміру: %1$s</string>
+    <string name="log_extra_space">Додатковий простір: %1$d MB</string>
+    <string name="log_final_size">Кінцевий розмір зображення: %1$d MB</string>
+    <string name="log_settings_hint">Порада: налаштуйте множник EXT4 та додатковий простір в налаштуваннях.</string>
+    <string name="log_no_size_calc">Не вдалося розрахувати розмір каталогу, використано значення за замовчуванням 2 ГБ.</string>
+
+    <!-- Log Messages - Payload -->
+    <string name="log_payload_extracting">Витягується Payload...</string>
+    <string name="log_payload_success">Витягнення payload.bin завершено успішно</string>
+
+    <!-- Workshop (Project Management) -->
+    <string name="workshop_create_title">Новий проект</string>
+    <string name="workshop_create_label">Назва проекту (англійською)</string>
+    <string name="workshop_create_btn">Створити</string>
+    
+    <string name="workshop_delete_title">Видалити проект?</string>
+    <string name="workshop_delete_summary">Ви впевнені, що хочете видалити "%1$s"? Ця дія буде незворотною.</string>
+    <string name="workshop_delete_btn">Видалити</string>
+    
+    <string name="workshop_rename">Перейменувати</string>
+    <string name="workshop_rename_title">Перейменувати проект</string>
+    <string name="workshop_rename_label">Нова назва</string>
+
+    <string name="state_calculating">Розрахунок...</string>
+    <string name="state_unknown">Невідомо</string>
+
+    <!-- Log Messages - Super -->
+    <string name="log_super_unpacking">Розпакування super.img...</string>
+    <string name="log_super_unpack_success">Розпакування super.img завершено успішно</string>
+
+    <!-- Log Messages - Img Extract -->
+    <string name="log_img_extract_erofs">Розпакування erofs...</string>
+    <string name="log_img_extract_erofs_success">Розпакування erofs завершено успішно.</string>
+    <string name="sign_avb">AVB підпис</string>
+
+    <!-- Log Messages - Boot -->
+    <string name="log_boot_unpacking">Виконується розпакування magiskboot...</string>
+    <string name="log_boot_unpack_success">Boot успішно розпаковано</string>
+
+    <!-- Log Messages - Img Repack -->
+    <string name="log_img_repack_start">Початок пакування зображення...</string>
+    <string name="log_img_repack_success">Пакування завершено: зовні/%1$s.img</string>
+
+    <!-- Log Messages - Boot Repack -->
+    <string name="log_boot_repacking">Виконується перепакування magiskboot...</string>
+    <string name="log_boot_repack_success">Перепакування Boot завершено: зовні/%1$s</string>
+
+    <!-- Log Messages - Super Repack -->
+    <string name="log_super_repacking">Пакування Super.img</string>
+    <string name="log_super_repack_success">Перезібрання Super.img завершено успішно</string>
+
+    <!-- Log Messages - AVB Sign -->
+    <string name="log_avb_signing">Виконання процедури підпису AVB...</string>
+    <string name="log_avb_sign_success">Підпис AVB пройшов успішно.</string>
+
+    <!-- Log Messages - Convert -->
+    <string name="log_convert_start">Початок перетворення формату...</string>
+    <string name="log_convert_success">Перетворення формату пройшло успішно.</string>
+
+    <!-- Supplemental Log Messages -->
+    <string name="log_target_file">Ціль: %1$s</string>
+    <string name="log_mount_ext4_attempt">Спроба монтування образу EXT4...</string>
+    <string name="log_root_required">Потрібен ROOT доступ.</string>
+    <string name="log_mount_ext4_success">Образ EXT4 успішно змонтовано та розпаковано.</string>
+    <string name="log_mount_ext4_failed">Монтування EXT4 завершилося невдало</string>
+    <string name="log_mount_ext4_hint">Порада: Переконайтеся, що у вас є права root, або змонтуйте вручну.</string>
+    <string name="log_unpack_failed">Розпакування завершилося невдало</string>
+    <string name="log_repack_failed">Перепакування завершилося невдало</string>
+    <string name="log_analyzing_sizes">Аналіз розмірів зображень...</string>
+    <string name="log_super_size">Розмір Super.img: %1$d Мегабайтів</string>
+    <string name="log_backing_up">Створення резервної копії вихідного файлу...</string>
+    <string name="log_backup_saved">Резервна копія збережена: %1$s</string>
+    <string name="log_action_failed">Невдача</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="tab_workshop">Головна</string>
+    <string name="tab_about">Про програму</string>
+    
+    <!-- About Page -->
+    <string name="about_title">Про програму</string>
+    <string name="about_app_info">Інформація про програму</string>
+    <string name="about_app_description">ImageStudio — це потужний набір інструментів для роботи з ПЗУ, що підтримує витягнення payload, управління суперрозділами, пакування образів та багато іншого.</string>
+    <string name="about_developer">Розробник</string>
+    <string name="about_github_summary">Переглянути вихідний код та внести свій внесок.</string>
+    <string name="about_report_issue">Звіт про проблему</string>
+    <string name="about_report_issue_summary">Повідомляйте про помилки або пропонуйте нові функції на GitHub.</string>
+    <string name="about_open_source">Ліцензії з відкритим кодом</string>
+    <string name="about_open_source_summary">Переглянути використовувані проекти з відкритим кодом</string>
+    <string name="about_made_with_love">Створено з ❤️ за допомогою Compose Multiplatform</string>
+    <string name="plugins">Плагіни</string>
+    <string name="search">Пошук</string>
+    <string name="install">Встановити</string>
+    <string name="install_complete">Встановлення завершено</string>
+    <string name="install_plugin">Встановити плагін</string>
+    <string name="open_source_licenses">Ліцензії з відкритим кодом</string>
+    <string name="contributors_title">Автори</string>
+    <string name="select_all">Вибрати все</string>
+    <string name="deselect_all">Зняти виділення з усіх</string>
+    <string name="from">Звідки</string>
+    <string name="to">Куди</string>
+    <string name="architecture">Архітектура</string>
+    <string name="user_name">Ім'я користувача</string>
+    <string name="platform_backend">Бекенд платформи</string>
+    <string name="payload_dump_threads_num">Потоки скидання Payload</string>
+    <string name="payload_extraction_concurrency">Паралельне витягнення Payload</string>
+    <string name="support_old_kernel">Підтримка старого ядра</string>
+    <string name="repack_method">Метод перепакування</string>
+    <string name="search_partitions">Пошук розділів</string>
+    <string name="translator">Перекладено Grant Ward</string>
+</resources>

@@ -1,0 +1,263 @@
+<resources>
+    <string name="app_name">ImageStudio</string>
+    <string name="translator">Translated by System_Img</string>
+    <!-- Common Buttons -->
+    <string name="btn_close">Menutup</string>
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_start">Mulai</string>
+    <string name="btn_start_convert">Memulai Convert</string>
+    <string name="btn_confirm">Konfirmasi</string>
+    <string name="btn_back">Kembali</string>
+
+    <!-- Screen Titles -->
+    <string name="wb_title">Project</string>
+    <string name="wb_task_status">Status Tugas</string>
+    <string name="wb_open_folder">Buka Folder</string>
+    <string name="settings_title">Settings</string>
+
+    <!-- Group Titles -->
+    <string name="group_unpack">Unpack Tools</string>
+    <string name="group_repack">Repack Tools</string>
+    <string name="group_advanced">Advanced</string>
+
+    <!-- Unpack Tools -->
+    <string name="tool_payload">Unpack payload</string>
+    <string name="desc_payload">Unpack payload.bin firmware</string>
+
+    <string name="tool_super_unpack">Unpack Super</string>
+    <string name="desc_super_unpack">unpack partition extraction</string>
+
+    <string name="tool_img_extract">Unpack img</string>
+    <string name="desc_img_extract">Unpack erofs/ext4 image contents</string>
+
+    <!-- Repack Tools -->
+    <string name="tool_img_repack">Img Repack</string>
+    <string name="desc_img_repack">Repack erofs/ext4/boot images</string>
+
+    <string name="tool_super_repack">Repack Super</string>
+    <string name="desc_super_repack">Repack super.img</string>
+
+    <!-- Advanced Tools -->
+    <string name="tool_sign_image">AVB Sign</string>
+    <string name="desc_avb_sign">Menambahkan AVB verification ke image</string>
+
+    <string name="tool_fmt_convert">Format Convert</string>
+    <string name="desc_fmt_convert">Konversi multi format</string>
+
+    <!-- Status & Messages -->
+    <string name="status_executing">Menjalankan tugas</string>
+    <string name="status_completed">Tugas Selesai</string>
+    <string name="status_running">Running...</string>
+    <string name="status_done">Selesai</string>
+    <string name="status_initializing">Memulai...</string>
+    <string name="status_ready">Siap</string>
+    <string name="status_waiting">Menunggu tugas...</string>
+    <string name="status_duration">Durasi: %1$s</string>
+
+    <string name="log_details">Detail Log</string>
+    <string name="msg_dont_close">Jangan tutup jendela atau keluar dari program</string>
+    <string name="msg_no_files">Tidak ada file terkait yang ditemukan di direktori saat ini</string>
+    <string name="msg_no_imgs_found">Tidak ada file .img yang ditemukan</string>
+    <string name="msg_waiting_log">Menunggu keluaran log...</string>
+    <string name="msg_no_log">Tidak ada logs</string>
+
+    <!-- File Selection & Configuration -->
+    <string name="convert_select_file">Pilih File</string>
+    <string name="convert_direction">Conversion Direction</string>
+    <string name="convert_title">Format Conversion Config</string>
+
+    <string name="repack_select_dir">Pilih Folder</string>
+    <string name="repack_manual_dir">Masukkan nama direktori secara manual</string>
+
+    <string name="repack_img_title">Img Repack Config</string>
+    <string name="repack_fs_type">Tipe Filesystem</string>
+    <string name="repack_compress_algo">Algoritma Compression</string>
+    <string name="repack_compress_level">Level Compression</string>
+
+    <string name="super_title">Repack Super Config</string>
+    <string name="title_select_partitions">Terpilih %1$d / Total %2$d Partisi</string>
+    <string name="super_size_mode">Size Mode</string>
+    <string name="super_size_auto">Hitung Otomatis</string>
+    <string name="super_size_manual">Tentukan Secara Manual</string>
+    <string name="super_size_custom_hint">Masukkan ukuran (bytes)</string>
+    <string name="opt_sparse_image">Membuat Sparse Image</string>
+    <string name="opt_virtual_ab">Virtual A/B</string>
+    <string name="label_group_name">Nama Grub</string>
+    <string name="label_device_name">Nama Device</string>
+
+    <string name="source_project_root">Project Root Directory</string>
+    <string name="source_data_partition">Partisi Data</string>
+
+    <!-- Dialogs -->
+    <string name="title_select_img">Pilih File Image</string>
+    <string name="title_select_dir">Pilih Directory</string>
+    <string name="hint_img_boot_rec">Recommend: boot.img / recovery.img / vbmeta.img</string>
+    <string name="msg_no_files_found">Tidak Ada Berkas Ditemukan</string>
+    <string name="msg_no_files_convert">Tidak ada file .img yang dapat dikonversi</string>
+    <string name="msg_no_files_sign">Tidak ada file .img yang dapat ditandatangani</string>
+    <string name="msg_no_br_found">Tidak ada file .br yang ditemukan</string>
+    <string name="msg_no_dat_found">Tidak ada file .dat yang ditemukan</string>
+    <string name="msg_no_compress_found">Tidak ada file yang dapat dikompresi</string>
+
+    <!-- Repack Config -->
+    <string name="label_manual_folder">Nama Directory Manual</string>
+    <string name="label_compress_level">Level Compress (1-12)</string>
+    <string name="label_partition_select">Pilih Partisi (%1$d/%2$d)</string>
+    <string name="label_convert_mode">Convert Mode</string>
+    <string name="desc_avb_sign_detail">Gunakan magiskboot untuk menandatangani images dengan AVB</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_appearance">Tampilan</string>
+    <string name="settings_advanced">Advanced</string>
+    <string name="settings_about">Tentang</string>
+
+    <string name="theme_mode">Mode Tema</string>
+    <string name="theme_system">Ikuti System</string>
+    <string name="theme_light">Mode Terang</string>
+    <string name="theme_dark">Mode Gelap</string>
+
+    <string name="settings_dynamic_color">Warna Dinamis</string>
+    <string name="settings_dynamic_color_summary">Hasilkan warna tema dari wallpaper</string>
+
+    <string name="settings_language">Bahasa</string>
+    <string name="language_system">System Bawaan</string>
+    <string name="language_chinese">简体中文</string>
+    <string name="language_english">English</string>
+    <string name="language_russian">Русский язык</string>
+    <string name="language_Indonesia">Indonesia</string>
+
+    <string name="ext4_multiplier">Multipler Ukuran Image EXT4</string>
+    <string name="ext4_multiplier_desc">Multiplier coefficient for image size calculation</string>
+    <string name="ext4_multiplier_label">Multiplier (1.0-2.0)</string>
+    <string name="ext4_multiplier_hint">Recommended range: 1.0-1.2, default 1.05</string>
+
+    <string name="ext4_extra_space">Ruang Tambahan Image EXT4</string>
+    <string name="ext4_extra_space_desc">Ruang tambahan yang ditambahkan saat packing image EXT4 (MB)</string>
+    <string name="ext4_extra_space_label">Ukuran Ekstra (MB)</string>
+    <string name="ext4_extra_space_hint">Tingkatkan nilai ini jika proses packing gagal karena kehabisan ruang. Rentang yang disarankan: 32-256 MB</string>
+
+    <string name="formula_hint">Formula: Ukuran Image = Ukuran Sebenarnya × Multiplier + Ruang Ekstra</string>
+
+    <string name="about_app_name">Nama Aplikasi</string>
+    <string name="about_version">Versi</string>
+    <string name="about_framework">Framework</string>
+    <string name="about_ui_components">UI Components</string>
+
+    <!-- Log Messages - General -->
+    <string name="log_task_start">Tugas Dimulai</string>
+    <string name="log_task_end">Tugas Selesai</string>
+    <string name="log_detecting_format">Mendeteksi format image...</string>
+    <string name="log_calculating_size">Menghitung Ukuran directory...</string>
+    <string name="log_calc_result">Hasil Hitungan: %1$s bytes (%2$d MB)</string>
+    <string name="log_size_multiplier">Ukuran multiplier: %1$s</string>
+    <string name="log_extra_space">Ruang ekstra: %1$d MB</string>
+    <string name="log_final_size">Ukuran Image Akhir: %1$d MB</string>
+    <string name="log_settings_hint">Sesuaikan multiplier dan ruang tambahan EXT4 di Pengaturan</string>
+    <string name="log_no_size_calc">Gagal menghitung ukuran direktori, menggunakan nilai bawaan 2GB</string>
+
+    <!-- Log Messages - Payload -->
+    <string name="log_payload_extracting">Extracting Payload...</string>
+    <string name="log_payload_success">Payload extraction Berhasil</string>
+
+    <!-- Workshop (Project Management) -->
+    <string name="workshop_create_title">Project Baru</string>
+    <string name="workshop_create_label">Nama Project</string>
+    <string name="workshop_create_btn">Membuat</string>
+    
+    <string name="workshop_delete_title">Hapus Project?</string>
+    <string name="workshop_delete_summary">Apakah kamu yakin mau menghapus "%1$s"? Tindakan ini tidak dapat dibatalkan.</string>
+    <string name="workshop_delete_btn">Hapus</string>
+    
+    <string name="workshop_rename">Ganti Nama</string>
+    <string name="workshop_rename_title">Ganti Nama Project</string>
+    <string name="workshop_rename_label">Nama Baru</string>
+
+
+    
+    <string name="state_calculating">Menghitung...</string>
+    <string name="state_unknown">Unknown</string>
+
+    <!-- Log Messages - Super -->
+    <string name="log_super_unpacking">Unpacking Super image...</string>
+    <string name="log_super_unpack_success">Super Berhasil diunpack</string>
+
+    <!-- Log Messages - Img Extract -->
+    <string name="log_img_extract_erofs">Unpacking erofs ...</string>
+    <string name="log_img_extract_erofs_success">Unpack erofs Berhasil.</string>
+    <string name="sign_avb">AVB Sign</string>
+
+    <!-- Log Messages - Boot -->
+    <string name="log_boot_unpacking">Menjalankan magiskboot unpack...</string>
+    <string name="log_boot_unpack_success">Boot Berhasil diunpack</string>
+
+    <!-- Log Messages - Img Repack -->
+    <string name="log_img_repack_start">Memulai packing image...</string>
+    <string name="log_img_repack_success">Packing Berhasil: out/%1$s.img</string>
+
+    <!-- Log Messages - Boot Repack -->
+    <string name="log_boot_repacking">Mengeksekusi magiskboot repack...</string>
+    <string name="log_boot_repack_success">Repack Boot Berhasil: out/%1$s</string>
+
+    <!-- Log Messages - Super Repack -->
+    <string name="log_super_repacking">Packing Super image...</string>
+    <string name="log_super_repack_success">Super Berhasil Direpack</string>
+
+    <!-- Log Messages - AVB Sign -->
+    <string name="log_avb_signing">Performing AVB signing...</string>
+    <string name="log_avb_sign_success">AVB signing Berhasil</string>
+
+    <!-- Log Messages - Convert -->
+    <string name="log_convert_start">Memulai format conversion...</string>
+    <string name="log_convert_success">Format conversion Berhasil</string>
+
+    <!-- Supplemental Log Messages -->
+    <string name="log_target_file">Target: %1$s</string>
+    <string name="log_mount_ext4_attempt">Mencoba Memuat file Image EXT4...</string>
+    <string name="log_root_required">Membutuhkan Root Permision</string>
+    <string name="log_mount_ext4_success">Image EXT4 berhasil dimuat dan dibongkar</string>
+    <string name="log_mount_ext4_failed">Gagal Memuat EXT4</string>
+    <string name="log_mount_ext4_hint">Pastikan Anda memiliki izin root atau muat secara manual</string>
+    <string name="log_unpack_failed">Unpack Gagal</string>
+    <string name="log_repack_failed">Repack Gagal</string>
+    <string name="log_analyzing_sizes">Menganalisis ukuran image...</string>
+    <string name="log_super_size">Ukuran Super: %1$d MB</string>
+    <string name="log_backing_up">Mencadangkan file asli...</string>
+    <string name="log_backup_saved">Backup Tersimpan: %1$s</string>
+    <string name="log_action_failed">Gagal</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="tab_workshop">Workshop</string>
+    <string name="tab_about">Tentang</string>
+    
+    <!-- About Page -->
+    <string name="about_title">Tentang</string>
+    <string name="about_app_info">Informasi Aplikasi</string>
+    <string name="about_app_description">ImageStudio adalah toolkit ROM yang mendukung ekstraksi Payload, manajemen partisi Super, pengepakan image, dan banyak lagi.</string>
+    <string name="about_developer">Developer</string>
+    <string name="about_github_summary">Lihat kode sumber dan berkontribusi</string>
+    <string name="about_report_issue">Lapor Bug</string>
+    <string name="about_report_issue_summary">Laporkan bug atau berikan saran fitur di GitHub</string>
+    <string name="about_open_source">Lisensi Open Source</string>
+    <string name="about_open_source_summary">Lihat proyek sumber terbuka yang digunakan</string>
+    <string name="about_made_with_love">Dibuat dengan ❤️ menggunakan Compose Multiplatform</string>
+    <string name="plugins">Plugin</string>
+    <string name="search">Cari</string>
+    <string name="install">Install</string>
+    <string name="install_complete">Install Selesai</string>
+    <string name="install_plugin">Install Plugin</string>
+    <string name="open_source_licenses">Lisensi Open source</string>
+    <string name="contributors_title">Kontributor</string>
+    <string name="select_all">Pilih Semua</string>
+    <string name="deselect_all">Batalkan Semua Pilihan</string>
+    <string name="from">Dari</string>
+    <string name="to">Ke</string>
+    <string name="architecture">Arsitektur</string>
+    <string name="user_name">Nama Pengguna</string>
+    <string name="platform_backend">Sistem Belakang Layar</string>
+    <string name="payload_dump_threads_num">Jumlah Thread untuk Ekstraksi Payload</string>
+    <string name="payload_extraction_concurrency">Payload extraction Konkurensi</string>
+    <string name="support_old_kernel">Mendukung Kernel Lama</string>
+    <string name="repack_method">Metode Repack</string>
+    <string name="search_partitions">Mencari Partisi</string>
+    <string name="got_it">Mengerti</string>
+</resources>

@@ -1,0 +1,266 @@
+<resources>
+    <string name="app_name">image Студия</string>
+    <string name="translator">Переведено Grant Ward</string>
+    <!-- Common Buttons -->
+    <string name="btn_close">Закрыть</string>
+    <string name="btn_cancel">Отменить</string>
+    <string name="btn_start">Начать</string>
+    <string name="btn_start_convert">Начать конвертацию</string>
+    <string name="btn_confirm">Согласится</string>
+    <string name="btn_back">Назад</string>
+
+    <!-- Screen Titles -->
+    <string name="wb_title">Верстак</string>
+    <string name="wb_task_status">Статус задачи</string>
+    <string name="wb_open_folder">Открыть папку</string>
+    <string name="settings_title">Настройки</string>
+
+    <!-- Group Titles -->
+    <string name="group_unpack">Распаковать Инструменты</string>
+    <string name="group_repack">Запаковать Инструменты</string>
+    <string name="group_advanced">Дополнительно</string>
+
+    <!-- Unpack Tools -->
+    <string name="tool_payload">Извлечь Payload.bin</string>
+    <string name="desc_payload">Извлечь payload.bin прошивка</string>
+
+    <string name="tool_super_unpack">распаковать Super.img</string>
+    <string name="desc_super_unpack">извлечение раздела lpunpack</string>
+
+    <string name="tool_img_extract">Извлечь .img файлы</string>
+    <string name="desc_img_extract">Извлечь erofs/ext4 содержимое изображения</string>
+
+    <!-- Repack Tools -->
+    <string name="tool_img_repack">Пересобрать .img</string>
+    <string name="desc_img_repack">Паковать erofs/ext4/boot изображения</string>
+
+    <string name="tool_super_repack">Пересобрать Super.img</string>
+    <string name="desc_super_repack">lpmake генерировать super.img</string>
+
+    <!-- Advanced Tools -->
+    <string name="tool_sign_image">AVB знак</string>
+    <string name="desc_avb_sign">Добавить AVB верификацию в изображение</string>
+
+    <string name="tool_fmt_convert">Формат Преобразовать</string>
+    <string name="desc_fmt_convert">Многоформатное преобразование</string>
+
+    <!-- Status & Messages -->
+    <string name="status_executing">Выполнение задачи</string>
+    <string name="status_completed">Задача завершена</string>
+    <string name="status_running">В процессе</string>
+    <string name="status_done">Готово</string>
+    <string name="status_initializing">Инициализация...</string>
+    <string name="status_ready">Готовый</string>
+    <string name="status_waiting">Ожидание задачи</string>
+    <string name="status_duration">Продолжительность: %1$s</string>
+
+    <string name="log_details">Подробный журнал</string>
+    <string name="msg_dont_close">Не закрывайте окно и не выходите из приложения</string>
+    <string name="msg_no_files">В текущем каталоге не найдено связанных файлов.</string>
+    <string name="msg_no_imgs_found">.img Файлы не найдены</string>
+    <string name="msg_waiting_log">Ожидание вывода логов...</string>
+    <string name="msg_no_log">Нету логов</string>
+
+    <!-- File Selection & Configuration -->
+    <string name="convert_select_file">Выберите Файл</string>
+    <string name="convert_direction">Направление конверсии</string>
+    <string name="convert_title">Конфигурация преобразования формата</string>
+
+    <string name="repack_select_dir">Выбрать папку</string>
+    <string name="repack_manual_dir">Введите имя каталога вручную.</string>
+
+    <string name="repack_img_title">.Img Пересобрать конфиг</string>
+    <string name="repack_fs_type">Тип файловой системы</string>
+    <string name="repack_compress_algo">Алгоритм сжатия</string>
+    <string name="repack_compress_level">Уровень сжатия</string>
+    <string name="repack_mount_point">Точка монтирования</string>
+
+    <string name="super_title">Пересобрать конфиг Super.img</string>
+    <string name="title_select_partitions">Выбрано %1$d / Общий %2$d разделы</string>
+    <string name="super_size_mode">Режим размера</string>
+    <string name="super_size_auto">Автокалькулятор</string>
+    <string name="super_size_manual">Ручное указание</string>
+    <string name="super_size_custom_hint">Укажите размер (в байтах)</string>
+    <string name="opt_sparse_image">Сгенерировать Sparse изображение</string>
+    <string name="opt_virtual_ab">Виртуальный A/B</string>
+    <string name="label_group_name">Название группы</string>
+    <string name="label_device_name">Название устройства</string>
+
+    <string name="source_project_root">Корневой каталог проекта</string>
+    <string name="source_data_partition">Разделение данных</string>
+
+    <!-- Dialogs -->
+    <string name="title_select_img">Выберите файл .img</string>
+    <string name="title_select_dir">Выберите директорию</string>
+    <string name="hint_img_boot_rec">Рекомендация: boot.img / recovery.img / vbmeta.img</string>
+    <string name="msg_no_files_found">Файлы не найдены</string>
+    <string name="msg_no_files_convert">Файлы .img, пригодные для конвертации, не найдены.</string>
+    <string name="msg_no_files_sign">Подписанных файлов .img не найдено.</string>
+    <string name="msg_no_br_found">Файлы .br не найдены</string>
+    <string name="msg_no_dat_found">Файлы .dat не найдены</string>
+    <string name="msg_no_compress_found">Сжимаемые файлы не найдены</string>
+
+    <!-- Repack Config -->
+    <string name="label_manual_folder">Имя каталога для ручного управления</string>
+    <string name="label_compress_level">Уровень сжатия (1-12)</string>
+    <string name="label_partition_select">Выбрать разделы(%1$d/%2$d)</string>
+    <string name="label_convert_mode">Режимы конвертации</string>
+    <string name="desc_avb_sign_detail">Используйте MagiskBoot для подписи образов с помощью AVB.</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_appearance">Появление</string>
+    <string name="settings_advanced">Дополнительно</string>
+    <string name="settings_about">о</string>
+
+    <string name="theme_mode">Тематический режим</string>
+    <string name="theme_system">Следуйте системе</string>
+    <string name="theme_light">Светлый режим</string>
+    <string name="theme_dark">Темный режим</string>
+
+    <string name="settings_dynamic_color">Динамический цвет</string>
+    <string name="settings_dynamic_color_summary">Сгенерируйте цвета темы из обоев.</string>
+
+    <string name="settings_language">Язык</string>
+    <string name="language_system">Системные настройки по умолчанию </string>
+    <string name="language_chinese">简体中文</string>
+    <string name="language_english">English</string>
+    <string name="language_Indonesia">Indonesia</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_ukrainian">Українська</string>
+    <string name="language_turkish">Türkçe</string>
+
+    <string name="ext4_multiplier">EXT4 Множитель размера изображения</string>
+    <string name="ext4_multiplier_desc">Коэффициент множителя для расчета размера изображения</string>
+    <string name="ext4_multiplier_label">Множитель (1.0-2.0)</string>
+    <string name="ext4_multiplier_hint">Рекомендуемый диапазон: 1.0-1.2, обычно 1.05</string>
+
+    <string name="ext4_extra_space">EXT4 Дополнительное пространство для изображения</string>
+    <string name="ext4_extra_space_desc">Дополнительное пространство, добавляемое при упаковке образа EXT4 (Мегабайты)</string>
+    <string name="ext4_extra_space_label">Дополнительное пространство (Mегабайты)</string>
+    <string name="ext4_extra_space_hint">Увеличьте это значение, если упаковка завершается ошибкой нехватки места. Рекомендуемый диапазон: 32–256 Мегабайт.</string>
+
+    <string name="formula_hint">Формула: Размер изображения = Фактический размер × Множитель + Дополнительное пространство</string>
+
+    <string name="about_app_name">Имя приложения</string>
+    <string name="about_version">Версия</string>
+    <string name="about_framework">Фреймворк</string>
+    <string name="about_ui_components">Компоненты пользовательского интерфейса</string>
+
+    <!-- Log Messages - General -->
+    <string name="log_task_start">Задача начата</string>
+    <string name="log_task_end">Задача завершена</string>
+    <string name="log_detecting_format">Определение формата изображения...</string>
+    <string name="log_calculating_size">Расчет размера каталога...</string>
+    <string name="log_calc_result">Результат расчета: %1$s байтов (%2$d Mегабайтов)</string>
+    <string name="log_size_multiplier">Множитель размера: %1$s</string>
+    <string name="log_extra_space">Дополнительное пространство: %1$d MB</string>
+    <string name="log_final_size">Финальный размер изображения: %1$d MB</string>
+    <string name="log_settings_hint">Совет: отрегулируйте множитель EXT4 и дополнительное пространство в настройках.</string>
+    <string name="log_no_size_calc">Не удается рассчитать размер каталога, используется значение по умолчанию 2 ГБ.</string>
+
+    <!-- Log Messages - Payload -->
+    <string name="log_payload_extracting">Извлекается Payload...</string>
+    <string name="log_payload_success">Извлечение payload.bin завершилось успешно</string>
+
+    <!-- Workshop (Project Management) -->
+    <string name="workshop_create_title">Новый проект</string>
+    <string name="workshop_create_label">Имя проекта (На Английском)</string>
+    <string name="workshop_create_btn">Создать</string>
+    
+    <string name="workshop_delete_title">Удалить проект??</string>
+    <string name="workshop_delete_summary">Вы уверены, что хотите удалить? "%1$s"? Это действие будет необратимо.</string>
+    <string name="workshop_delete_btn">Удалить</string>
+    
+    <string name="workshop_rename">Переименовать</string>
+    <string name="workshop_rename_title">Переименовать проект</string>
+    <string name="workshop_rename_label">Новое имя</string>
+
+
+    
+    <string name="state_calculating">Калькуляция...</string>
+    <string name="state_unknown">Неизвестный</string>
+
+    <!-- Log Messages - Super -->
+    <string name="log_super_unpacking">Распаковка super.img...</string>
+    <string name="log_super_unpack_success">Распаковка super.img было завершено успешно</string>
+
+    <!-- Log Messages - Img Extract -->
+    <string name="log_img_extract_erofs">Распаковка erofs ...</string>
+    <string name="log_img_extract_erofs_success">Распаковка erofs было завершено успешнл.</string>
+    <string name="sign_avb">AVB знак</string>
+
+    <!-- Log Messages - Boot -->
+    <string name="log_boot_unpacking">Выполняется распаковка magiskboot....</string>
+    <string name="log_boot_unpack_success">Boot был распакован успешно</string>
+
+    <!-- Log Messages - Img Repack -->
+    <string name="log_img_repack_start">Начинается упаковка изображения...</string>
+    <string name="log_img_repack_success">Упаковка завершена.: вне/%1$s.img</string>
+
+    <!-- Log Messages - Boot Repack -->
+    <string name="log_boot_repacking">Выполняется перепаковка magiskboot....</string>
+    <string name="log_boot_repack_success">Boot перепаковка завершена: вне/%1$s</string>
+
+    <!-- Log Messages - Super Repack -->
+    <string name="log_super_repacking">Упаковка Super.img</string>
+    <string name="log_super_repack_success">Пересборка Super.img завершилась успешно</string>
+
+    <!-- Log Messages - AVB Sign -->
+    <string name="log_avb_signing">Выполнение процедуры подписания AVB-кода...</string>
+    <string name="log_avb_sign_success">Подписание с AVB прошло успешно.</string>
+
+    <!-- Log Messages - Convert -->
+    <string name="log_convert_start">Начало преобразования формата...</string>
+    <string name="log_convert_success">Преобразование формата прошло успешно.</string>
+
+    <!-- Supplemental Log Messages -->
+    <string name="log_target_file">Цель: %1$s</string>
+    <string name="log_mount_ext4_attempt">Попытка монтирования образа EXT4...</string>
+    <string name="log_root_required">Требуется ROOT доступ.</string>
+    <string name="log_mount_ext4_success">Образ EXT4 успешно смонтирован и распакован.</string>
+    <string name="log_mount_ext4_failed">EXT4 монтирование завершилась неудачно</string>
+    <string name="log_mount_ext4_hint">Совет: Убедитесь, что у вас есть права root, или смонтируйте вручную.</string>
+    <string name="log_unpack_failed">Распаковка завершилась неудачно</string>
+    <string name="log_repack_failed">Перепаковка завершилась неудачно</string>
+    <string name="log_analyzing_sizes">Анализ размеров изображений...</string>
+    <string name="log_super_size">Super.img размер: %1$d Mегабайтов</string>
+    <string name="log_backing_up">Создание резервной копии исходного файла...</string>
+    <string name="log_backup_saved">Резервная копия сохранена: %1$s</string>
+    <string name="log_action_failed">Провал</string>
+    
+    <!-- Bottom Navigation -->
+    <string name="tab_workshop">Мастер-класс</string>
+    <string name="tab_about">О</string>
+    
+    <!-- About Page -->
+    <string name="about_title">О</string>
+    <string name="about_app_info">Информация о приложении</string>
+    <string name="about_app_description">ImageStudio — это мощный набор инструментов для работы с ПЗУ, поддерживающий извлечение полезной нагрузки, управление суперразделами, упаковку образов и многое другое.</string>
+    <string name="about_developer">Разработчик</string>
+    <string name="about_github_summary">Просмотрите исходный код и внесите свой вклад.</string>
+    <string name="about_report_issue">Сделать отчет</string>
+    <string name="about_report_issue_summary">Сообщайте об ошибках или предлагайте новые функции на GitHub.</string>
+    <string name="about_open_source">Лицензии с открытым исходным кодом</string>
+    <string name="about_open_source_summary">Посмотреть используемые проекты с открытым исходным кодом</string>
+    <string name="about_made_with_love">Создано с ❤️ с использованием Compose Multiplatform</string>
+    <string name="plugins">Плагины</string>
+    <string name="search">Поиск</string>
+    <string name="install">Установить</string>
+    <string name="install_complete">Установка завершена</string>
+    <string name="install_plugin">Установить плагин</string>
+    <string name="open_source_licenses">Лицензии с открытым исходным кодом</string>
+    <string name="contributors_title">Авторы</string>
+    <string name="select_all">Выбрать все</string>>
+    <string name="deselect_all">Снять выделение со всех элементов</string>
+    <string name="from">Откуда</string>
+    <string name="to">В</string>
+    <string name="architecture">Архитектура</string>
+    <string name="user_name">Имя пользователя</string>
+    <string name="platform_backend">Платформа бэкэнда</string>
+    <string name="payload_dump_threads_num">Payload Сбросить потоки</string>
+    <string name="payload_extraction_concurrency">Payload параллельное извлечение</string>
+    <string name="support_old_kernel">Поддержка старого ядра</string>
+    <string name="repack_method">Перепаковать метод</string>
+    <string name="search_partitions">Поиск разделов</string>
+</resources>
+
