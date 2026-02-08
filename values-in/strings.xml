@@ -226,7 +226,7 @@
     <string name="log_action_failed">Gagal</string>
     
     <!-- Bottom Navigation -->
-    <string name="tab_workshop">Workshop</string>
+    <string name="tab_workshop"></string>
     <string name="tab_about">Tentang</string>
     
     <!-- About Page -->
@@ -245,6 +245,7 @@
     <string name="install">Install</string>
     <string name="install_complete">Install Selesai</string>
     <string name="install_plugin">Install Plugin</string>
+    <string name="click_to_manage_plugins">Klik untuk mengelola plugin</string>>
     <string name="open_source_licenses">Lisensi Open source</string>
     <string name="contributors_title">Kontributor</string>
     <string name="select_all">Pilih Semua</string>
@@ -260,4 +261,10 @@
     <string name="repack_method">Metode Repack</string>
     <string name="search_partitions">Mencari Partisi</string>
     <string name="got_it">Mengerti</string>
+    <string name="no_detail_logs">No detail logs</string>
+    <string name="processing">Memproses...</string>
+    <string name="set_partitions_size">Atur ukuran Partisi</string>
+    <string name="manually">Manual</string>
+    <string name="auto">Otomatis</string>
+    <string name="enable_sparse">Aktifkan Sparse</string>
 </resources>
