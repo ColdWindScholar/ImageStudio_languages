@@ -280,4 +280,5 @@
     <string name="erofs_compression_level">Erofs Compression Level</string>
     <string name="file_type">FileType</string>
     <string name="selected_repack_folders">Selected repack folders</string>
+    <string name="sort_by_size">Sort by size</string>
 </resources>
