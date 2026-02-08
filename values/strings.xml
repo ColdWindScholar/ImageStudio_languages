@@ -278,4 +278,5 @@
     <string name="manually">手动</string>
     <string name="auto">自动</string>
     <string name="enable_sparse">启用 Sparse</string>
+    <string name="uninstall_plugin">卸载插件</string>
 </resources>

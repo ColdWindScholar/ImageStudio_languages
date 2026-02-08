@@ -271,4 +271,5 @@
     <string name="manually">Manually</string>
     <string name="auto">Auto</string>
     <string name="enable_sparse">Enable Sparse</string>
+    <string name="uninstall_plugin">Uninstall Plugin</string>
 </resources>
