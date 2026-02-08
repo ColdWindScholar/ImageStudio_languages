@@ -288,4 +288,5 @@
     <string name="file_type">文件类型</string>
     <string name="selected_repack_folders">选择打包目录</string>
     <string name="sort_by_size">按大小排序</string>
+    <string name="no_matching_partitions_found">未找到匹配的分区</string>
 </resources>
