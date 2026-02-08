@@ -156,7 +156,7 @@
     <string name="log_extra_space">Ek alan: %1$d MB</string>
     <string name="log_final_size">Nihai imaj boyutu: %1$d MB</string>
     <string name="log_settings_hint">İpucu: Ayarlar'dan EXT4 çarpanı ve ek alanı ayarlayın</string>
-    <string name="log_no_size_calc">Dizin boyutu hesaplanamadı, varsayılan 2 GB kullanılıyor</string>
+    <string name="log_no_size_calc">Dizin boyutu hesaplanamadı, varsayılan 0.5 GB kullanılıyor</string>
 
     <!-- Log Messages - Payload -->
     <string name="log_payload_extracting">Payload çıkarılıyor...</string>

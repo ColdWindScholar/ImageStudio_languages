@@ -153,7 +153,7 @@
     <string name="log_extra_space">Ruang ekstra: %1$d MB</string>
     <string name="log_final_size">Ukuran Image Akhir: %1$d MB</string>
     <string name="log_settings_hint">Sesuaikan multiplier dan ruang tambahan EXT4 di Pengaturan</string>
-    <string name="log_no_size_calc">Gagal menghitung ukuran direktori, menggunakan nilai bawaan 2GB</string>
+    <string name="log_no_size_calc">Gagal menghitung ukuran direktori, menggunakan nilai bawaan 0.5GB</string>
 
     <!-- Log Messages - Payload -->
     <string name="log_payload_extracting">Extracting Payload...</string>

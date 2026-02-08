@@ -161,7 +161,7 @@
     <string name="log_extra_space">额外空间: %1$d MB</string>
     <string name="log_final_size">最终镜像大小: %1$d MB</string>
     <string name="log_settings_hint">提示：可在设置中调整 EXT4 倍率和额外空间</string>
-    <string name="log_no_size_calc">无法计算目录大小，使用默认值 2GB</string>
+    <string name="log_no_size_calc">无法计算目录大小，使用默认值 0.5GB</string>
 
     <!-- 日志消息 - Payload -->
     <string name="log_payload_extracting">正在提取 Payload...</string>

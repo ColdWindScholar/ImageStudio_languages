@@ -157,7 +157,7 @@
     <string name="log_extra_space">Додатковий простір: %1$d MB</string>
     <string name="log_final_size">Кінцевий розмір зображення: %1$d MB</string>
     <string name="log_settings_hint">Порада: налаштуйте множник EXT4 та додатковий простір в налаштуваннях.</string>
-    <string name="log_no_size_calc">Не вдалося розрахувати розмір каталогу, використано значення за замовчуванням 2 ГБ.</string>
+    <string name="log_no_size_calc">Не вдалося розрахувати розмір каталогу, використано значення за замовчуванням 0.5 ГБ.</string>
 
     <!-- Log Messages - Payload -->
     <string name="log_payload_extracting">Витягується Payload...</string>

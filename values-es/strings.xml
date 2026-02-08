@@ -156,7 +156,7 @@
     <string name="log_extra_space">Espacio extra: %1$d MB</string>
     <string name="log_final_size">Tamaño final de la imagen: %1$d MB</string>
     <string name="log_settings_hint">Consejo: ajuste el multiplicador EXT4 y el espacio adicional en Configuración</string>
-    <string name="log_no_size_calc">No se puede calcular el tamaño del directorio, utilizando 2 GB (predeterminado)</string>
+    <string name="log_no_size_calc">No se puede calcular el tamaño del directorio, utilizando 0.5 GB (predeterminado)</string>
 
     <!-- Log Messages - Payload -->
     <string name="log_payload_extracting">Extrayendo Payload...</string>

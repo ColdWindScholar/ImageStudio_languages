@@ -156,7 +156,7 @@
     <string name="log_extra_space">Extra space: %1$d MB</string>
     <string name="log_final_size">Final image size: %1$d MB</string>
     <string name="log_settings_hint">Tip: Adjust EXT4 multiplier and extra space in Settings</string>
-    <string name="log_no_size_calc">Unable to calculate directory size, using default 2GB</string>
+    <string name="log_no_size_calc">Unable to calculate directory size, using default 0.5GB</string>
 
     <!-- Log Messages - Payload -->
     <string name="log_payload_extracting">Extracting Payload...</string>

@@ -156,7 +156,7 @@
     <string name="log_extra_space">Дополнительное пространство: %1$d MB</string>
     <string name="log_final_size">Финальный размер изображения: %1$d MB</string>
     <string name="log_settings_hint">Совет: отрегулируйте множитель EXT4 и дополнительное пространство в настройках.</string>
-    <string name="log_no_size_calc">Не удается рассчитать размер каталога, используется значение по умолчанию 2 ГБ.</string>
+    <string name="log_no_size_calc">Не удается рассчитать размер каталога, используется значение по умолчанию 0.5 ГБ.</string>
 
     <!-- Log Messages - Payload -->
     <string name="log_payload_extracting">Извлекается Payload...</string>
