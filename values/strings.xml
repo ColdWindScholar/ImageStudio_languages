@@ -286,4 +286,5 @@
     <string name="brotli_compression_level">Brotli压缩等级</string>
     <string name="erofs_compression_level">Erofs压缩等级</string>
     <string name="file_type">文件类型</string>
+    <string name="selected_repack_folders">选择打包目录</string>
 </resources>
