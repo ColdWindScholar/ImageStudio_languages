@@ -279,4 +279,7 @@
     <string name="auto">自动</string>
     <string name="enable_sparse">启用 Sparse</string>
     <string name="uninstall_plugin">卸载插件</string>
+    <string name="fix_plugin">修复插件</string>
+    <string name="export_plugin">导出插件</string>
+    <string name="clean_plugin_cache">清理缓存</string>
 </resources>

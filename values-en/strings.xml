@@ -272,4 +272,7 @@
     <string name="auto">Auto</string>
     <string name="enable_sparse">Enable Sparse</string>
     <string name="uninstall_plugin">Uninstall Plugin</string>
+    <string name="fix_plugin">Fix Plugin</string>
+    <string name="export_plugin">Export Plugin</string>
+    <string name="clean_plugin_cache">Clean Cache</string>
 </resources>
