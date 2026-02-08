@@ -278,4 +278,5 @@
     <string name="dat_version">Dat Version</string>
     <string name="brotli_compression_level">Brotli Compression Level</string>
     <string name="erofs_compression_level">Erofs Compression Level</string>
+    <string name="file_type">FileType</string>
 </resources>
