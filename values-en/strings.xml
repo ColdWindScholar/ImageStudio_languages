@@ -23,6 +23,8 @@
     <!-- Unpack Tools -->
     <string name="tool_payload">Payload Extract</string>
     <string name="desc_payload">Extract payload.bin firmware</string>
+    <string name="tool_split_app">App Extract</string>
+    <string name="desc_split_app">Extract UPDATE.APP firmware</string>
 
     <string name="tool_super_unpack">Super Unpack</string>
     <string name="desc_super_unpack">lpunpack partition extraction</string>

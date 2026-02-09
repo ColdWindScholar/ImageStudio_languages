@@ -23,6 +23,8 @@
     <!-- 解包工具 -->
     <string name="tool_payload">Payload 解包</string>
     <string name="desc_payload">提取 payload.bin 固件</string>
+    <string name="tool_split_app">App 解包</string>
+    <string name="desc_split_app">提取 UPDATE.APP 固件</string>
 
     <string name="tool_super_unpack">Super 分解</string>
     <string name="desc_super_unpack">lpunpack 分区提取</string>
