@@ -282,4 +282,6 @@
     <string name="selected_repack_folders">Selected repack folders</string>
     <string name="sort_by_size">Sort by size</string>
     <string name="no_matching_partitions_found">No matching partitions found.</string>
+    <string name="parsing_payload">Parsing Payload</string>
+    <string name="reading_partitions_list">Reading partitions list...</string>
 </resources>
