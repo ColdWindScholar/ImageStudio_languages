@@ -286,4 +286,6 @@
     <string name="no_matching_partitions_found">No matching partitions found.</string>
     <string name="parsing_payload">Parsing Payload</string>
     <string name="reading_partitions_list">Reading partitions list...</string>
+    <string name="just_a_minute">Just a moment</string>
+    <string name="removing">Removing...</string>
 </resources>

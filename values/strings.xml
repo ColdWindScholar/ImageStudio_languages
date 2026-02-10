@@ -294,4 +294,6 @@
     <string name="no_matching_partitions_found">未找到匹配的分区</string>
     <string name="parsing_payload">正在分析 Payload</string>
     <string name="reading_partitions_list">正在读取分区列表，请稍候...</string>
+    <string name="just_a_minute">请稍等</string>
+    <string name="removing">正在删除...</string>
 </resources>
