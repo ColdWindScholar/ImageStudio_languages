@@ -1,0 +1,286 @@
+<resources>
+    <string name="app_name">ImageStudio</string>
+<string name="translator">Tradotto dal xyan927</string>
+
+<!-- Common Buttons -->
+<string name="btn_close">Chiudi</string>
+<string name="btn_cancel">Annulla</string>
+<string name="btn_start">Avvia</string>
+<string name="btn_start_convert">Avvia la conversione</string>
+<string name="btn_confirm">Conferma</string>
+<string name="btn_back">Indietro</string>
+
+<!-- Screen Titles -->
+<string name="wb_title">Area di lavoro</string>
+<string name="wb_task_status">Stato attività</string>
+<string name="wb_open_folder">Apri cartella</string>
+<string name="settings_title">Impostazioni</string>
+
+<!-- Group Titles -->
+<string name="group_unpack">Strumenti di estrazione</string>
+<string name="group_repack">Strumenti di ricompilazione</string>
+<string name="group_advanced">Avanzate</string>
+
+<!-- Unpack Tools -->
+<string name="tool_payload">Estrazione Payload</string>
+<string name="desc_payload">Estrai firmware payload.bin</string>
+
+<string name="tool_super_unpack">Estrazione Super</string>
+<string name="desc_super_unpack">Estrazione partizioni con lpunpack</string>
+
+<string name="tool_img_extract">Estrazione Img</string>
+<string name="desc_img_extract">Estrai contenuti immagini erofs/ext4</string>
+
+<!-- Repack Tools -->
+<string name="tool_img_repack">Ricompilazione immagine</string>
+<string name="desc_img_repack">Crea immagini erofs/ext4/boot</string>
+
+<string name="tool_super_repack">Ricostruzione Super</string>
+<string name="desc_super_repack">Genera super.img con lpmake</string>
+
+<!-- Advanced Tools -->
+<string name="tool_sign_image">Firma immagine AVB</string>
+<string name="desc_avb_sign">Aggiungi verifica AVB all'immagine</string>
+
+<string name="tool_fmt_convert">Conversione formato</string>
+<string name="desc_fmt_convert">Conversione multi formato</string>
+
+<!-- Status & Messages -->
+<string name="status_executing">Esecuzione attività</string>
+<string name="status_completed">Attività completata</string>
+<string name="status_running">In esecuzione...</string>
+<string name="status_done">Completato</string>
+<string name="status_initializing">Inizializzazione...</string>
+<string name="status_ready">Pronto</string>
+<string name="status_waiting">In attesa dell'operazione…</string>
+<string name="status_duration">Durata: %1$s</string>
+
+<string name="log_details">Registro dettagliato</string>
+<string name="msg_dont_close">Non chiudere la finestra o uscire dal programma</string>
+<string name="msg_no_files">Nessun file correlato trovato nella directory corrente</string>
+<string name="msg_no_imgs_found">Nessun file .img trovato</string>
+<string name="msg_waiting_log">In attesa dell'output del registro...</string>
+<string name="msg_no_log">Nessun registro</string>
+
+    <!-- File Selection & Configuration -->
+    <string name="convert_select_file">Seleziona file</string>
+<string name="convert_direction">Direzione di conversione</string>
+<string name="convert_title">Configurazione conversione formato</string>
+
+<string name="repack_select_dir">Seleziona cartella</string>
+<string name="repack_manual_dir">Inserisci manualmente il nome della directory</string>
+
+<string name="repack_img_title">Configurazione ricompilazione Img</string>
+<string name="repack_fs_type">Tipo di filesystem</string>
+<string name="repack_compress_algo">Algoritmo di compressione</string>
+<string name="repack_compress_level">Livello di compressione</string>
+
+<string name="super_title">Configurazione Super Repack</string>
+<string name="title_select_partitions">Partizioni selezionate %1$d / Totale %2$d</string>
+<string name="super_size_mode">Modalità dimensione</string>
+<string name="super_size_auto">Calcolo automatico</string>
+<string name="super_size_manual">Impostazione manuale</string>
+<string name="super_size_custom_hint">Inserisci dimensione (byte)</string>
+<string name="opt_sparse_image">Genera immagine sparse</string>
+<string name="opt_virtual_ab">A/B virtuale</string>
+<string name="label_group_name">Nome gruppo</string>
+<string name="label_device_name">Nome dispositivo</string>
+
+<string name="source_project_root">Directory principale del progetto</string>
+<string name="source_data_partition">Partizione dati</string>
+
+<!-- Dialogs -->
+<string name="title_select_img">Seleziona file immagine</string>
+<string name="title_select_dir">Seleziona directory</string>
+<string name="hint_img_boot_rec">Consigliato: boot.img / recovery.img / vbmeta.img</string>
+<string name="msg_no_files_found">Nessun file trovato</string>
+<string name="msg_no_files_convert">Nessun file .img convertibile trovato</string>
+<string name="msg_no_files_sign">Nessun file .img firmabile trovato</string>
+<string name="msg_no_br_found">Nessun file .br trovato</string>
+<string name="msg_no_dat_found">Nessun file .dat trovato</string>
+    <string name="msg_no_compress_found">Nessun file comprimibile trovato</string>
+
+    <!-- Repack Config -->
+    <string name="label_manual_folder">Nome directory manuale</string>
+<string name="label_compress_level">Livello di compressione (1-12)</string>
+<string name="label_partition_select">Seleziona partizioni (%1$d/%2$d)</string>
+<string name="label_convert_mode">Modalità di conversione</string>
+<string name="desc_avb_sign_detail">Usa magiskboot per firmare le immagini con AVB</string>
+
+<!-- Settings Screen -->
+<string name="settings_appearance">Aspetto</string>
+<string name="settings_advanced">Avanzate</string>
+<string name="settings_about">Informazioni</string>
+
+<string name="theme_mode">Modalità tema</string>
+<string name="theme_system">Segui sistema</string>
+<string name="theme_light">Modalità chiara</string>
+<string name="theme_dark">Modalità scura</string>
+
+<string name="settings_dynamic_color">Colore dinamico</string>
+<string name="settings_dynamic_color_summary">Genera i colori del tema dallo sfondo</string>
+
+<string name="settings_language">Lingua</string>
+<string name="language_system">Predefinita di sistema</string>
+<string name="language_chinese">简体中文</string>
+<string name="language_english">English</string>
+<string name="language_russian">Русский язык</string>
+<string name="language_Indonesia">Indonesia</string>
+<string name="language_spanish">Español</string>
+<string name="language_ukrainian">Українська</string>
+<string name="language_turkish">Türkçe</string>
+
+<string name="ext4_multiplier">Moltiplicatore dimensione immagine EXT4</string>
+<string name="ext4_multiplier_desc">Coefficiente moltiplicatore per il calcolo della dimensione dell'immagine</string>
+<string name="ext4_multiplier_label">Moltiplicatore (1.0-2.0)</string>
+<string name="ext4_multiplier_hint">Intervallo consigliato: 1.0-1.2, predefinito 1.05</string>
+
+<string name="ext4_extra_space">Spazio extra immagine EXT4</string>
+<string name="ext4_extra_space_desc">Spazio aggiuntivo durante la creazione dell'immagine EXT4 (MB)</string>
+<string name="ext4_extra_space_label">Spazio extra (MB)</string>
+<string name="ext4_extra_space_hint">Aumenta questo valore se la creazione fallisce per errore di spazio insufficiente. Intervallo consigliato: 32-256 MB</string>
+
+<string name="formula_hint">Formula: Dimensione immagine = Dimensione reale × Moltiplicatore + Spazio extra</string>
+
+<string name="about_app_name">Nome applicazione</string>
+<string name="about_version">Versione</string>
+<string name="about_framework">Framework</string>
+<string name="about_ui_components">Componenti UI</string>
+
+<!-- Log Messages - General -->
+<string name="log_task_start">Attività avviata</string>
+<string name="log_task_end">Attività completata</string>
+<string name="log_detecting_format">Rilevamento formato immagine...</string>
+<string name="log_calculating_size">Calcolo dimensione directory...</string>
+<string name="log_calc_result">Risultato calcolo: %1$s byte (%2$d MB)</string>
+<string name="log_size_multiplier">Moltiplicatore dimensione: %1$s</string>
+<string name="log_extra_space">Spazio extra: %1$d MB</string>
+<string name="log_final_size">Dimensione finale immagine: %1$d MB</string>
+<string name="log_settings_hint">Suggerimento: regola moltiplicatore EXT4 e spazio extra nelle Impostazioni</string>
+<string name="log_no_size_calc">Impossibile calcolare la dimensione della directory, uso predefinito 0.5GB</string>
+
+    <!-- Log Messages - Payload -->
+    <string name="log_payload_extracting">Estrazione payload...</string>
+<string name="log_payload_success">Estrazione payload completata con successo</string>
+
+<!-- Workshop (Project Management) -->
+<string name="workshop_create_title">Nuovo progetto</string>
+<string name="workshop_create_label">Nome progetto (inglese)</string>
+<string name="workshop_create_btn">Crea</string>
+
+<string name="workshop_delete_title">Eliminare progetto?</string>
+<string name="workshop_delete_summary">Sei sicuro di voler eliminare "%1$s"? Questa azione non può essere annullata.</string>
+<string name="workshop_delete_btn">Elimina</string>
+
+<string name="workshop_rename">Rinomina</string>
+<string name="workshop_rename_title">Rinomina progetto</string>
+<string name="workshop_rename_label">Nuovo nome</string>
+
+<string name="state_calculating">Calcolo...</string>
+<string name="state_unknown">Sconosciuto</string>
+
+<!-- Log Messages - Super -->
+<string name="log_super_unpacking">Estrazione immagine Super...</string>
+<string name="log_super_unpack_success">Estrazione Super completata con successo</string>
+
+<!-- Log Messages - Img Extract -->
+<string name="log_img_extract_erofs">Estrazione erofs...</string>
+<string name="log_img_extract_erofs_success">Estrazione erofs completata con successo</string>
+<string name="sign_avb">Firma AVB</string>
+
+<!-- Log Messages - Boot -->
+<string name="log_boot_unpacking">Esecuzione unpack magiskboot...</string>
+<string name="log_boot_unpack_success">Unpack boot completato con successo</string>
+
+<!-- Log Messages - Img Repack -->
+<string name="log_img_repack_start">Avvio creazione immagine...</string>
+<string name="log_img_repack_success">Creazione completata: out/%1$s.img</string>
+
+<!-- Log Messages - Boot Repack -->
+<string name="log_boot_repacking">Esecuzione repack magiskboot...</string>
+<string name="log_boot_repack_success">Repack boot completato con successo: out/%1$s</string>
+
+<!-- Log Messages - Super Repack -->
+<string name="log_super_repacking">Creazione immagine Super...</string>
+<string name="log_super_repack_success">Super repack completato con successo</string>
+
+<!-- Log Messages - AVB Sign -->
+<string name="log_avb_signing">Esecuzione firma AVB...</string>
+<string name="log_avb_sign_success">Firma AVB completata con successo</string>
+
+    <!-- Log Messages - Convert -->
+    <string name="log_convert_start">Avvio conversione formato...</string>
+<string name="log_convert_success">Conversione formato completata con successo</string>
+
+<!-- Supplemental Log Messages -->
+<string name="log_target_file">Destinazione: %1$s</string>
+<string name="log_mount_ext4_attempt">Tentativo di montaggio immagine EXT4...</string>
+<string name="log_root_required">Permessi root richiesti</string>
+<string name="log_mount_ext4_success">Immagine EXT4 montata ed estratta con successo</string>
+<string name="log_mount_ext4_failed">Montaggio EXT4 non riuscito</string>
+<string name="log_mount_ext4_hint">Suggerimento: assicurati di avere i permessi root o monta manualmente</string>
+<string name="log_unpack_failed">Estrazione non riuscita</string>
+<string name="log_repack_failed">Ricompilazione non riuscita</string>
+<string name="log_analyzing_sizes">Analisi dimensioni immagini...</string>
+<string name="log_super_size">Dimensione Super: %1$d MB</string>
+<string name="log_backing_up">Backup del file originale...</string>
+<string name="log_backup_saved">Backup salvato: %1$s</string>
+<string name="log_action_failed">Operazione non riuscita</string>
+
+<!-- Bottom Navigation -->
+<string name="tab_workshop">Workshop</string>
+<string name="tab_about">Informazioni</string>
+
+<!-- About Page -->
+<string name="about_title">Informazioni</string>
+<string name="about_app_info">Informazioni sull'app</string>
+<string name="about_app_description">ImageStudio è un potente toolkit ROM che supporta l'estrazione del Payload, la gestione delle partizioni Super, la creazione di immagini e molto altro.</string>
+<string name="about_developer">Sviluppatore</string>
+<string name="about_github_summary">Visualizza il codice sorgente e contribuisci</string>
+<string name="about_report_issue">Segnala problema</string>
+<string name="about_report_issue_summary">Segnala bug o suggerisci funzionalità su GitHub</string>
+<string name="about_open_source">Licenze open source</string>
+<string name="about_open_source_summary">Visualizza i progetti open source utilizzati</string>
+<string name="about_made_with_love">Creato con ❤️ usando Compose Multiplatform</string>
+<string name="plugins">Plugin</string>
+<string name="search">Cerca</string>
+<string name="install">Installa</string>
+<string name="install_complete">Installazione completata</string>
+<string name="install_plugin">Installa plugin</string>
+<string name="click_to_manage_plugins">Clicca per gestire i plugin</string>
+<string name="open_source_licenses">Licenze open source</string>
+<string name="contributors_title">Collaboratori</string>
+<string name="select_all">Seleziona tutto</string>
+<string name="deselect_all">Deseleziona tutto</string>
+<string name="from">Da</string>
+<string name="to">A</string>
+<string name="architecture">Architettura</string>
+<string name="user_name">Nome utente</string>
+<string name="platform_backend">Backend piattaforma</string>
+<string name="payload_dump_threads_num">Numero di thread per dump Payload</string>
+<string name="payload_extraction_concurrency">Concorrenza estrazione Payload</string>
+<string name="support_old_kernel">Supporto kernel legacy</string>
+<string name="repack_method">Metodo di ricompilazione</string>
+<string name="search_partitions">Cerca partizioni</string>
+<string name="got_it">Ho capito</string>
+<string name="no_detail_logs">Nessun log dettagliato</string>
+<string name="processing">Elaborazione...</string>
+<string name="execution_steps">Fasi di esecuzione</string>
+<string name="set_partitions_size">Imposta dimensione partizioni</string>
+<string name="manually">Manuale</string>
+<string name="auto">Automatico</string>
+<string name="enable_sparse">Abilita immagini sparse</string>
+<string name="uninstall_plugin">Disinstalla plugin</string>
+<string name="fix_plugin">Ripara plugin</string>
+<string name="export_plugin">Esporta plugin</string>
+<string name="clean_plugin_cache">Pulisci cache</string>
+<string name="dat_version">Versione DAT</string>
+<string name="brotli_compression_level">Livello di compressione Brotli</string>
+<string name="erofs_compression_level">Livello di compressione Erofs</string>
+<string name="file_type">Tipo file</string>
+<string name="selected_repack_folders">Cartelle di ricompilazione selezionate</string>
+<string name="sort_by_size">Ordina per dimensione</string>
+<string name="no_matching_partitions_found">Nessuna partizione corrispondente trovata.</string>
+<string name="parsing_payload">Analisi Payload</string>
+<string name="reading_partitions_list">Lettura elenco partizioni...</string>
+</resources>
