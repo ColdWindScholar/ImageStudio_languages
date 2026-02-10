@@ -136,6 +136,7 @@
     <string name="language_ukrainian">Українська</string>
     <string name="language_turkish">Türkçe</string>
     <string name="language_portuguese">Português</string>
+    <string name="language_korean">한국</string>
 
     <string name="ext4_multiplier">EXT4 镜像大小倍率</string>
     <string name="ext4_multiplier_desc">计算镜像大小时的倍率系数</string>
