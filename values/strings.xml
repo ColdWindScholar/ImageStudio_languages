@@ -298,4 +298,6 @@
     <string name="removing">正在删除...</string>
     <string name="importing">正在导入...</string>
     <string name="preparing">正在准备...</string>
+    <string name="setting_up_environment">正在设置环境</string>
+    <string name="extracting_binaries">正在提取二进制...</string>
 </resources>
