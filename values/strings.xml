@@ -296,4 +296,6 @@
     <string name="reading_partitions_list">正在读取分区列表，请稍候...</string>
     <string name="just_a_minute">请稍等</string>
     <string name="removing">正在删除...</string>
+    <string name="importing">正在导入...</string>
+    <string name="preparing">正在准备...</string>
 </resources>

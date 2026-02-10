@@ -288,4 +288,6 @@
     <string name="reading_partitions_list">Reading partitions list...</string>
     <string name="just_a_minute">Just a moment</string>
     <string name="removing">Removing...</string>
+    <string name="importing">Importing...</string>
+    <string name="preparing">Preparing...</string>
 </resources>
