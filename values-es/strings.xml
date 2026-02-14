@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">ImageStudio</string>
-    <string name="translator">Translated by Bendy</string>
+    <string name="translator">Traducción por Bendy</string>
     <!-- Common Buttons -->
     <string name="btn_close">Cerrar</string>
     <string name="btn_cancel">Cancelar</string>
@@ -42,7 +42,7 @@
     <string name="desc_avb_sign">Añade verificación AVB a una imagen</string>
 
     <string name="tool_fmt_convert">Conversión de formatos</string>
-    <string name="desc_fmt_convert">Conversión de Multi Formatos</string>
+    <string name="desc_fmt_convert">Conversión dat/br/sparse/raw</string>
 
     <!-- Status & Messages -->
     <string name="status_executing">Ejecutando tarea...</string>
@@ -120,7 +120,7 @@
     <string name="settings_dynamic_color_summary">Generar un tema a partir de los colores del fondo de pantalla</string>
 
     <string name="settings_language">Idioma</string>
-    <string name="language_system">Predeterminado del sistema</string>
+    <string name="language_system">System Default</string>
     <string name="language_chinese">简体中文</string>
     <string name="language_english">English</string>
     <string name="language_russian">Русский язык</string>
@@ -150,13 +150,13 @@
     <string name="log_task_start">Tarea iniciada</string>
     <string name="log_task_end">Tarea completada</string>
     <string name="log_detecting_format">Detectando el formato de imagen...</string>
-    <string name="log_calculating_size">Calculando el tamaño del directorio...</string>
+    <string name="log_calculating_size">Calculando el tamaño del directorio...<</string>
     <string name="log_calc_result">Resultado calculado: %1$s bytes (%2$d MB)</string>
     <string name="log_size_multiplier">Multiplicador de tamaño: %1$s</string>
     <string name="log_extra_space">Espacio extra: %1$d MB</string>
     <string name="log_final_size">Tamaño final de la imagen: %1$d MB</string>
     <string name="log_settings_hint">Consejo: ajuste el multiplicador EXT4 y el espacio adicional en Configuración</string>
-    <string name="log_no_size_calc">No se puede calcular el tamaño del directorio, utilizando 0.5 GB (predeterminado)</string>
+    <string name="log_no_size_calc">No se puede calcular el tamaño del directorio, utilizando 2 GB (predeterminado)</string>
 
     <!-- Log Messages - Payload -->
     <string name="log_payload_extracting">Extrayendo Payload...</string>
@@ -267,4 +267,8 @@
     <string name="no_detail_logs">No hay registros detallados</string>
     <string name="processing">Procesando...</string>
     <string name="execution_steps">Pasos de ejecución</string>
+    <string name="set_partitions_size">Establecer el tamaño de las particiones</string>
+    <string name="manually">Manual</string>
+    <string name="auto">Auto</string>
+    <string name="enable_sparse">Habilitar dispersión (sparse)</string>
 </resources>
